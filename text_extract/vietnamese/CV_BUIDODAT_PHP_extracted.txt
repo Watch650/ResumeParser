@@ -1,0 +1,48 @@
+BUI DO DAT
+Huyện Thanh Oai, Thành Phố Hà Nội.
+Phone: +84965263725 Email: dathbta04@gmail.com GitHub: github.com/buidodat
+MUC TIEU
+Tôi là một lập trình viên dam mê với sự hiểu biết sâu sắc về PHP, Laravel và các công nghệ khác liên quan. Tôi
+đã thành thạo trong việc xây dựng các website theo mô hình MVC, đảm bảo tinh bảo mật, hiệu năng và kha
+năng mở rộng.
+Mục tiêu nghề nghiệp của tôi là trở thành một lập trình viên fullstack, hợp tác với đội nhóm để tạo ra những
+sản phẩm có chất lượng cao và mạng lại nhiều giá trị cho khách hàng.
+HỌC VẤN
+Cao Đẳng FPT POLYTECHNIC 8/2022 - 12/2024
+Lập trình website
+Điểm trung bình: 8.9
+Tại đó tôi được học và phát triển toàn diện các kỹ năng về chuyên môn học cả công nghệ font-end và backend.
+Bên cạnh đó tôi còn được tham gia các hoạt động ngoại khóa, phát triển những ký năng mềm, nâng cao khả
+năng làm việc nhóm và giải quyết vấn đề.
+DỰ ÁN
+Website đặt vé xem phim Polycinemas 08/2024 - 12/2024
+Nhóm trưởng
+Các tính năng nổi bật:
+e Quan lý hệ thống rạp chiếu phim gồm nhiều chi nhánh, nhiều cơ sở.
+e Không chỉ đặt vé xem phim bên cạnh đó có thể mua các dịch vụ đi kèm bao gồm bỏng, nước.
+e Cung cấp các ưu đãi cho khách hàng như thẻ thành viên, điểm tích lũy và mã giảm giá.
+e Cung cấp chức nang realtime giữ chỗ để nang cao trải nghiệm người dùng
+« Tich hợp các phương thức thành toán online như VNPAY, Momo.
+(C) Tích hợp công nghệ Quagga. Js để tìm kiếm nhanh đơn hang.
+« Tích hợp đăng nhập bằng Google.
+e Các phòng chiếu sử dung các mẫu sơ đồ ghế. Có thể điều chỉnh, sắp xếp các vị trí ghế trong mẫu.
+e _ Hệ thống phân quyền gồm nhân viên rạp, quản lý rạp và quản trị hệ thống.
+Demo sản phẩm Source code
+IaInIel me]
+ne
+mene apse
+https://youtu.be/TjltLumGue4 https://GitHub: github.com/buidodat/datn-hn5
+Website bán nước hoa Perfume 10/2023 - 12/2023
+Nhóm trưởng
+Website cung cấp đầy đủ các chức năng cơ bản của thương mại điện tử.
+Các tính năng nổi bật:
+e _ Danh mục sản phẩm, biến thể sản phẩm, bộ loc sản phẩm.
+« Chức năng giỏ hàng, mua hàng, thanh toán online bằng VNPay.
+e Quản lý tài khoản, danh mục, sản phẩm, thể tích, bình luận, đơn hàng, thống kê.
+Source code
+DI TU
+https://GitHub: github.com/buidodat/Duan1
+KY NANG
+e _ Ngôn ngữ lập trình: PHP, Javascript, C, Java
+« Cơ sở dữ liệu: MySQL
+e Thu viện: Laravel, Boostrap, Pusher, Jquery

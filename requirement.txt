@@ -1,0 +1,4 @@
+poppler-24.08.0
+Tesseract-OCR
+Pytorch
+transformers

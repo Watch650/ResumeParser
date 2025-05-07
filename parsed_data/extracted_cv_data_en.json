@@ -1,0 +1,107 @@
+[
+    {
+        "ho_ten": "Nguyen Duc",
+        "ngay_sinh": null,
+        "so_dien_thoai": "0943970335\n",
+        "email": "canhn1525@gmail.com",
+        "khu_vuc": [],
+        "kinh_nghiem_nam": null,
+        "trinh_do_hoc_van": {
+            "truong": "University of Economics - Technology for Industries (UNETI)",
+            "trinh_do": null,
+            "thoi_gian": null
+        },
+        "ngoai_ngu": [],
+        "ky_nang_chinh": [
+            "JavaScript",
+            "SQL",
+            "Java"
+        ],
+        "gioi_thieu": "I'm seeking an internship opportunity to develop my backend programming skills, particularly in building and optimizing API systems, \ndatabases, and web applications. My goal is to learn and grow while contributing effectively to the company's success.",
+        "filename": "CV Nguyen Duc Canh - CV -  INTERN DEV -NGUYEN DUC CANH_extracted.txt"
+    },
+    {
+        "ho_ten": "Truong Ngoc Tuan",
+        "ngay_sinh": null,
+        "so_dien_thoai": "2021 - 11",
+        "email": null,
+        "khu_vuc": [
+            "Ho Chi Minh"
+        ],
+        "kinh_nghiem_nam": null,
+        "trinh_do_hoc_van": {
+            "truong": "University of Technologies",
+            "trinh_do": null,
+            "thoi_gian": null
+        },
+        "ngoai_ngu": [
+            "Japanese"
+        ],
+        "ky_nang_chinh": [
+            "Python",
+            "JavaScript",
+            "React",
+            "SQL",
+            "Java"
+        ],
+        "gioi_thieu": "I have more than 15 years of experience in software development and integration and more than 6 years of experience with Ruby on Rails for Australian and Singapore customers. I have advanced knowledge of Ruby, Rails Framework and other Windows and Web technologies. Work well under pressure and always try to complete assignments on time. Always have a positive attitude towards everything.\nMore than 10 years of experience working in an Agile environment have helped me develop my communication and soft skills so that I can lead the team with only one purpose: the project should be completed and satisfy customer requirements.",
+        "filename": "CV_Hatonet_Trương Ngọc Tuấn_Ruby_extracted.txt"
+    },
+    {
+        "ho_ten": "Tran Huu",
+        "ngay_sinh": null,
+        "so_dien_thoai": "0935495824\n",
+        "email": "thnghia2006@gmail.com",
+        "khu_vuc": [],
+        "kinh_nghiem_nam": null,
+        "trinh_do_hoc_van": {
+            "truong": "University of Natural Sciences HCM.",
+            "trinh_do": null,
+            "thoi_gian": null
+        },
+        "ngoai_ngu": [
+            "English",
+            "Japanese"
+        ],
+        "ky_nang_chinh": [
+            "JavaScript",
+            "React",
+            "SQL",
+            "C++",
+            "Java",
+            "Docker"
+        ],
+        "gioi_thieu": "Have experience with over 13 years of software development in designing and developing software applications, web applications.  Strong knowledge in .Net technology and fluent with HTML, CSS, JavaScript, and .Net frameworks, Entity Framework, .Net Core, Web API, Abp Framework,…... Enthusiastic, responsible, hard-working person. Good communication and working well in a team environment.\nTo apply my knowledge and enhance hands-on experience by being a part of the company\nTo seek a rewarding career development through the mutual success with the company, with ultimate goal of becoming professional as IT Technician.",
+        "filename": "CV_Tran Huu Nghia_extracted.txt"
+    },
+    {
+        "ho_ten": "Hoàng Lân",
+        "ngay_sinh": null,
+        "so_dien_thoai": "0862 650 430\n",
+        "email": "hlvu650@gmail.com",
+        "khu_vuc": [
+            "Hanoi"
+        ],
+        "kinh_nghiem_nam": 2,
+        "trinh_do_hoc_van": {
+            "truong": "University of Science and Technology Hanoi (USTH)",
+            "trinh_do": null,
+            "thoi_gian": "2022 - Present"
+        },
+        "ngoai_ngu": [
+            "English",
+            "French"
+        ],
+        "ky_nang_chinh": [
+            "Python",
+            "JavaScript",
+            "React",
+            "Node.js",
+            "SQL",
+            "Java",
+            "Docker"
+        ],
+        "gioi_thieu": "Information and Technology student at USTH specializing in front-end development, with additional experience\nin back-end technologies. Strong focus on website development using the MERN stack (React, Node.js) and\nenthusiastic about designing clean, modern, and interactive user interfaces for both web and software\ndevelopments. Currently seeking for an internship to refine technical skills in web and software development,\nwhile exploring interests in DevOps and AI.",
+        "filename": "VuHoangLan_CV_extracted.txt"
+    }
+]
