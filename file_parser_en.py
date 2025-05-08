@@ -20,7 +20,7 @@ def info_structure():
         "khu_vuc": None,
         "kinh_nghiem_nam": None,
         "trinh_do_hoc_van": None,
-        "ngoai_ngu": [],
+        "ngoai_ngu": None,
         "ky_nang_chinh": [],
         "gioi_thieu": None,
     }
@@ -181,7 +181,7 @@ def extract_contact_info(text):
     # Phone extraction
     phone_match = re.search(r'\b(?:\+?84|0)(\d{9})\b', text.replace(' ', '').replace('-', ''))
     if phone_match:
-        number = phone_match.group(0).strip()
+        number = phone_match.group(0)
         info["so_dien_thoai"] = number
 
     return info
@@ -305,18 +305,17 @@ def extract_language_info(text):
             elif re.search(r"\bn3\b|\bn4\b|\bn5\b", line) or any(kw in line for kw in level_keywords["basic"]):
                 japanese_level = "basic_japanese"
 
-    result_ids = []
+    result_ids = None
 
     if english_level:
-        result_ids.append(LANGUAGE_LEVELS[english_level]["id"])
+        result_ids = LANGUAGE_LEVELS[english_level]["id"]
     if japanese_level:
-        result_ids.append(LANGUAGE_LEVELS[japanese_level]["id"])
+        result_ids = LANGUAGE_LEVELS[japanese_level]["id"]
 
     if not result_ids:
-        result_ids.append(LANGUAGE_LEVELS["none"]["id"])
+        result_ids = LANGUAGE_LEVELS["none"]["id"]
 
-    return sorted(result_ids)
-
+    return result_ids
 
 def extract_skills_info(text):
     """Extract skills information"""
