@@ -130,9 +130,10 @@ def extract_contact_info(text):
         info["email"] = email_match.group(0)
 
     # Phone extraction
-    phone_match = re.search(r'(\+84|0)[1-9]\d{8}\b', text)
+    phone_match = re.search(r'\b(?:\+?84|0)(\d{9})\b', text.replace(' ', '').replace('-', ''))
     if phone_match:
-        info["so_dien_thoai"] = phone_match.group(0)
+        number = phone_match.group(0).strip()
+        info["so_dien_thoai"] = number
 
     return info
 
@@ -140,7 +141,7 @@ def extract_experience_info(text):
     """Extract work experience information"""
     info = {}
 
-    exp_match = re.search(r'(\d+)\+?\s*(năm|year)s?\s*kinh\s*nghiệm', text, re.IGNORECASE)
+    exp_match = re.search(r'(\d+)\s*(năm|year|yrs?|y)\s*(kinh\s*nghiệm|experience|exp)?\s*(?:over|trên|more\s*than|với\s*hơn|with)?', text, re.IGNORECASE)
     if exp_match:
         info["kinh_nghiem_nam"] = int(exp_match.group(1))
 
@@ -156,7 +157,7 @@ def extract_education_level(text: str, entities: list) -> int:
         (r"(thạc sĩ|tiến sĩ|master|phd|doctor)", 4),       # after_university
         (r"(đại học|đh|học viện|university|bachelor|cử nhân|kỹ sư|academy)(?!\s*(thạc sĩ|tiến sĩ))", 3),  # university
         (r"(cao đẳng|college|trung cấp|vocational)", 2),     # college
-        (r"(trung học|thpt|high school)", 1)  # high_school
+        (r"(trung học|thpt|highschool|high school)", 1)  # high_school
     ]
 
     # 1. Check for explicit degree mentions in text (prioritizing higher degrees)
@@ -171,16 +172,14 @@ def extract_education_level(text: str, entities: list) -> int:
         org_lower = org.lower()
         if any(k in org_lower for k in ["đại học", "đh", "học viện"]):
             return 3  # university
-        elif "cao đẳng" in org_lower:
-            return 2  # college
-        elif "trung cấp" in org_lower:
+        elif any(k in org_lower for k in ["cao đẳng", "trung cấp"]):
             return 2  # college
         elif any(k in org_lower for k in ["trung học", "thpt"]):
             return 1  # high_school
 
     # 3. Check education section if still not found
     education_section = re.search(
-        r"(học vấn|giáo dục|trình độ|bằng cấp|education)[^:]*[:]?(.*?)(?=\n\s*\n|$)",
+        r"(học vấn|giáo dục|trình độ|bằng cấp|education|bằng)[^:]*[:]?(.*?)(?=\n\s*\n|$)",
         text,
         re.IGNORECASE | re.DOTALL
     )
@@ -214,7 +213,7 @@ def extract_language_info(text):
         ],
         "basic": [
             "cơ bản", "căn bản", "đọc hiểu", "đơn giản", "phổ thông", "tốt", "ổn", "bình thường", "thường"
-            "basic", "elementary", "beginner", "intermediate"
+            "basic", "elementary", "beginner", "intermediate", "standard"
         ]
     }
 

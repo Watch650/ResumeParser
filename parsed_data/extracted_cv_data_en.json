@@ -1,107 +1,179 @@
 [
-    {
-        "ho_ten": "Nguyen Duc",
-        "ngay_sinh": null,
-        "so_dien_thoai": "0943970335\n",
-        "email": "canhn1525@gmail.com",
-        "khu_vuc": [],
-        "kinh_nghiem_nam": null,
-        "trinh_do_hoc_van": {
-            "truong": "University of Economics - Technology for Industries (UNETI)",
-            "trinh_do": null,
-            "thoi_gian": null
-        },
-        "ngoai_ngu": [],
-        "ky_nang_chinh": [
-            "JavaScript",
-            "SQL",
-            "Java"
-        ],
-        "gioi_thieu": "I'm seeking an internship opportunity to develop my backend programming skills, particularly in building and optimizing API systems, \ndatabases, and web applications. My goal is to learn and grow while contributing effectively to the company's success.",
-        "filename": "CV Nguyen Duc Canh - CV -  INTERN DEV -NGUYEN DUC CANH_extracted.txt"
-    },
-    {
-        "ho_ten": "Truong Ngoc Tuan",
-        "ngay_sinh": null,
-        "so_dien_thoai": "2021 - 11",
-        "email": null,
-        "khu_vuc": [
-            "Ho Chi Minh"
-        ],
-        "kinh_nghiem_nam": null,
-        "trinh_do_hoc_van": {
-            "truong": "University of Technologies",
-            "trinh_do": null,
-            "thoi_gian": null
-        },
-        "ngoai_ngu": [
-            "Japanese"
-        ],
-        "ky_nang_chinh": [
-            "Python",
-            "JavaScript",
-            "React",
-            "SQL",
-            "Java"
-        ],
-        "gioi_thieu": "I have more than 15 years of experience in software development and integration and more than 6 years of experience with Ruby on Rails for Australian and Singapore customers. I have advanced knowledge of Ruby, Rails Framework and other Windows and Web technologies. Work well under pressure and always try to complete assignments on time. Always have a positive attitude towards everything.\nMore than 10 years of experience working in an Agile environment have helped me develop my communication and soft skills so that I can lead the team with only one purpose: the project should be completed and satisfy customer requirements.",
-        "filename": "CV_Hatonet_Trương Ngọc Tuấn_Ruby_extracted.txt"
-    },
-    {
-        "ho_ten": "Tran Huu",
-        "ngay_sinh": null,
-        "so_dien_thoai": "0935495824\n",
-        "email": "thnghia2006@gmail.com",
-        "khu_vuc": [],
-        "kinh_nghiem_nam": null,
-        "trinh_do_hoc_van": {
-            "truong": "University of Natural Sciences HCM.",
-            "trinh_do": null,
-            "thoi_gian": null
-        },
-        "ngoai_ngu": [
-            "English",
-            "Japanese"
-        ],
-        "ky_nang_chinh": [
-            "JavaScript",
-            "React",
-            "SQL",
-            "C++",
-            "Java",
-            "Docker"
-        ],
-        "gioi_thieu": "Have experience with over 13 years of software development in designing and developing software applications, web applications.  Strong knowledge in .Net technology and fluent with HTML, CSS, JavaScript, and .Net frameworks, Entity Framework, .Net Core, Web API, Abp Framework,…... Enthusiastic, responsible, hard-working person. Good communication and working well in a team environment.\nTo apply my knowledge and enhance hands-on experience by being a part of the company\nTo seek a rewarding career development through the mutual success with the company, with ultimate goal of becoming professional as IT Technician.",
-        "filename": "CV_Tran Huu Nghia_extracted.txt"
-    },
-    {
-        "ho_ten": "Hoàng Lân",
-        "ngay_sinh": null,
-        "so_dien_thoai": "0862 650 430\n",
-        "email": "hlvu650@gmail.com",
-        "khu_vuc": [
-            "Hanoi"
-        ],
-        "kinh_nghiem_nam": 2,
-        "trinh_do_hoc_van": {
-            "truong": "University of Science and Technology Hanoi (USTH)",
-            "trinh_do": null,
-            "thoi_gian": "2022 - Present"
-        },
-        "ngoai_ngu": [
-            "English",
-            "French"
-        ],
-        "ky_nang_chinh": [
-            "Python",
-            "JavaScript",
-            "React",
-            "Node.js",
-            "SQL",
-            "Java",
-            "Docker"
-        ],
-        "gioi_thieu": "Information and Technology student at USTH specializing in front-end development, with additional experience\nin back-end technologies. Strong focus on website development using the MERN stack (React, Node.js) and\nenthusiastic about designing clean, modern, and interactive user interfaces for both web and software\ndevelopments. Currently seeking for an internship to refine technical skills in web and software development,\nwhile exploring interests in DevOps and AI.",
-        "filename": "VuHoangLan_CV_extracted.txt"
-    }
+  {
+    "ho_ten": "Nguyen Duc Canh",
+    "ngay_sinh": null,
+    "so_dien_thoai": "0943970335",
+    "email": "canhn1525@gmail.com",
+    "khu_vuc": 99,
+    "kinh_nghiem_nam": null,
+    "trinh_do_hoc_van": 3,
+    "ngoai_ngu": [
+      5
+    ],
+    "ky_nang_chinh": [
+      2,
+      44,
+      63,
+      52,
+      100,
+      10
+    ],
+    "gioi_thieu": null,
+    "source_file": "CV Nguyen Duc Canh - CV -  INTERN DEV -NGUYEN DUC CANH_extracted.txt"
+  },
+  {
+    "ho_ten": "Truong Ngoc Tuan",
+    "ngay_sinh": "31/10/1978",
+    "so_dien_thoai": null,
+    "email": null,
+    "khu_vuc": 99,
+    "kinh_nghiem_nam": 15,
+    "trinh_do_hoc_van": 3,
+    "ngoai_ngu": [
+      5
+    ],
+    "ky_nang_chinh": [
+      2,
+      9,
+      88,
+      44,
+      28,
+      29,
+      6,
+      27,
+      62,
+      23,
+      18,
+      36,
+      15,
+      22,
+      10,
+      110,
+      120,
+      127,
+      128,
+      129,
+      139
+    ],
+    "gioi_thieu": null,
+    "source_file": "CV_Hatonet_Trương Ngọc Tuấn_Ruby_extracted.txt"
+  },
+  {
+    "ho_ten": "Pham Le Bac Le Bac Pham Pham Van Sang Huu Loc Nguyen",
+    "ngay_sinh": "13/07/2024",
+    "so_dien_thoai": "84814147090",
+    "email": "sang.phamvan@hust.edu.vn",
+    "khu_vuc": 99,
+    "kinh_nghiem_nam": null,
+    "trinh_do_hoc_van": 3,
+    "ngoai_ngu": [
+      1
+    ],
+    "ky_nang_chinh": [
+      28,
+      67,
+      18,
+      36,
+      65,
+      96,
+      15,
+      14,
+      110,
+      139
+    ],
+    "gioi_thieu": null,
+    "source_file": "CV_LOC_NGUYEN_HUU_extracted.txt"
+  },
+  {
+    "ho_ten": "Nguyễn Thành Luân",
+    "ngay_sinh": null,
+    "so_dien_thoai": "0899955742",
+    "email": "Luancv2010@gmail.com",
+    "khu_vuc": 79,
+    "kinh_nghiem_nam": null,
+    "trinh_do_hoc_van": 3,
+    "ngoai_ngu": [
+      5
+    ],
+    "ky_nang_chinh": [
+      4,
+      2,
+      9,
+      6,
+      58,
+      27,
+      80,
+      10,
+      79,
+      125,
+      139
+    ],
+    "gioi_thieu": null,
+    "source_file": "CV_Nguyen_Thanh_Luan_extracted.txt"
+  },
+  {
+    "ho_ten": "Tran Huu Nghia",
+    "ngay_sinh": null,
+    "so_dien_thoai": "0935495824",
+    "email": "thnghia2006@gmail.com",
+    "khu_vuc": 79,
+    "kinh_nghiem_nam": 13,
+    "trinh_do_hoc_van": 4,
+    "ngoai_ngu": [
+      3,
+      4
+    ],
+    "ky_nang_chinh": [
+      4,
+      5,
+      2,
+      88,
+      44,
+      26,
+      25,
+      27,
+      83,
+      82,
+      18,
+      8,
+      36,
+      96,
+      15,
+      80,
+      22,
+      14,
+      120,
+      127,
+      137,
+      139
+    ],
+    "gioi_thieu": null,
+    "source_file": "CV_Tran Huu Nghia_extracted.txt"
+  },
+  {
+    "ho_ten": "hoàng - lân",
+    "ngay_sinh": null,
+    "so_dien_thoai": "0862650430",
+    "email": "hlvu650@gmail.com",
+    "khu_vuc": 1,
+    "kinh_nghiem_nam": null,
+    "trinh_do_hoc_van": 3,
+    "ngoai_ngu": [
+      1
+    ],
+    "ky_nang_chinh": [
+      44,
+      28,
+      67,
+      90,
+      36,
+      65,
+      96,
+      80,
+      14,
+      139
+    ],
+    "gioi_thieu": null,
+    "source_file": "VuHoangLan_CV_extracted.txt"
+  }
 ]

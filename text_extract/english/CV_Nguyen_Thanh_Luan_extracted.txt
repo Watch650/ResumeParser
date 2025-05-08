@@ -1,0 +1,144 @@
+Nguyễn Thành Luân
+React Native Developer
+
+0899955742
+✉
+Email: Luancv2010@gmail.com
+📍
+685 Xo Viet Nghe Tinh, Ward 26, Binh Thanh
+District, Ho Chi Minh City
+MỤC TIÊU NGHỀ NGHIỆP
+I am to leverage my skills in mobile and web development to build innovative and user-centric applications. With a strong
+foundation in React Native, ReactJS, and backend technologies, my goal is to contribute to a dynamic team where I can grow
+professionally, take on challenging projects, and continuously improve my technical expertise while delivering impactful solutions.
+KINH NGHIỆM LÀM VIỆC
+Make Famous App
+01/2021
+-
+04/2022
+REACT NATIVE DEVELOPER
+• S24 App
+Team size: 5
+My responsibilities: Built an intuitive and user- friendly interface using React Native,
+ensuring a smooth and efficient user experience. Optimizing source code
+Use firebase for Auth (login facebook, login Google)
+Use firebase for push notification
+Deploy application to GooglePlay and Apple store
+Used technologies: React native, Mobx, PHP laravel, MySQL, Git, Restful API, socketIO,
+Firebase.
+• REAL ESTATE APP
+Team size: 7
+My responsibilities: Built an intuitive and user- friendly interface using React Native,
+ensuring a smooth and efficient user experience. Optimizing source code
+Use firebase for Auth (login facebook, login Google)
+Use firebase for push notification
+Deploy application to GooglePlay and Apple store\
+Used technologies: React native, Mobx, PHP laravel, MySQL, Git, Restful API, socketIO,
+Firebase.
+• GYM-X Studio
+Team size: 4
+My responsibilities: Built and improved user interfaces using React Native, ensuring a
+smooth and user- friendly experience.
+Use firebase for Auth (login facebook, login Google)
+Use firebase for push notification
+Deploy application to GooglePlay and Apple store
+Used technologies: ReactJS, React Native, ReduxSaga, MongoDb, Nodejs, HTML, CSS,
+Redis, Git, Firebase
+Pi tech
+05/2022
+-
+05/2023
+REACT NATIVE DEVELOPER
+• JOG2E
+Team size: 4
+My responsibilities: Built and improved user interfaces using React Native, ensuring a
+smooth and user- friendly experience.
+Use firebase for Auth (login facebook, login Google)
+Use firebase for push notification
+Link data from health apps
+Deploy application to GooglePlay and Apple store
+Used technologies: React Native, ReduxSaga, MongoDb, Nodejs, HTML, CSS, Redis, Git,
+SocketIO, Firebase
+• Pi Invesment Fund
+Team size: 8
+My responsibilities: Built and improved user interfaces using React Native, ensuring a
+smooth and user- friendly experience.
+Use firebase for Auth (login facebook, login Google)
+Use firebase for push notification
+Deploy application to GooglePlay and Apple store
+Used technologies: React Native, Redux Tool kit, MongoDb, Nodejs, HTML, CSS, Redis, Git,
+SocketIO, Firebase
+• Booking OFA
+Team size: 7
+My responsibilities: Built and improved user interfaces using React Native, ensuring a
+smooth and user- friendly experience.
+Use firebase for Auth (login facebook, login Google)
+Use firebase for push notification
+Deploy application to GooglePlay and Apple store
+Used technologies: React Native, Redux Tool kit, MongoDb, Nodejs, HTML, CSS, Redis, Git,
+SocketIO, Firebase
+• VINA FARM
+Team size: 4
+My responsibilities: Built and improved user interfaces using React Native, ensuring a
+smooth and user- friendly experience.
+Use firebase for Auth (login facebook, login Google)
+Use firebase for push notification
+Deploy application to GooglePlay and Apple store
+Used technologies:React Native, Redux Tool kit, MongoDb, Nodejs, HTML, CSS, Redis, Git,
+Firebase
+TasVN
+6/2023
+-
+8/2023
+REACT NATIVE DEVELOPER
+• Lái xe hộ
+Team size: 8
+My responsibilities: Built and improved user interfaces using React Native, ensuring a
+smooth and user- friendly experience.
+Use firebase for Auth (login facebook, login Google)
+Use firebase for push notification
+Deploy application to GooglePlay and Apple store
+Used technologies: React Native, Redux Tool kit, MongoDb, Nodejs, HTML, CSS, Redis, Git,
+SocketIO, Firebase
+Photo Time
+08/2023
+-
+now
+FULL STACK DEVELOPER
+• Photo time Membership
+Team size: 1
+My responsibilities :
+Frontend: Built and improved user interfaces using React Native, ensuring a smooth and
+user- friendly experience.
+Use firebase for Auth (login facebook, login Google)
+Use firebase for push notification
+Enroll Apple Developer program for organization
+Deploy application to GooglePlay and Apple store
+Backend: Developed and managed backend service using Nodejs Express
+Used technologies: React Native, Redux Tool kit, MongoDb, Nodejs, HTML, CSS, Redis, Git,
+SocketIO, Firebase
+• PHOTO TIME LANDING PAGE
+Team size: 1
+My responsibilities: Built and improved user interfaces using ReactJS, ensuring a smooth
+and user- friendly experience.
+Used technologies: NextJS, HTML, CSS
+CÁC KỸ NĂNG
+React Native
+Convert UI designs to cross-platform mobile code (iOS & Android)
+Integrate RESTful APIs, WebSockets, and Firebase
+Implement Firebase Authentication, Firestore, and FCM
+Set up Apple Developer and Google Play Developer accounts
+Upload apps to Google Play and Apple App Store
+Manage app state using Redux for efficient data flow and state management
+ReactJS
+Convert UI designs to Website code
+Integrate RESTful APIs, WebSockets, and Firebase
+Implement Firebase Authentication, Firestore, and FCM, Firebase hosting
+Manage app state using Redux for efficient data flow and state management
+NodeJS
+Develop RESTful APIs using Node.js and Express
+Implement middleware, routing, and error handling in Express
+Build scalable APIs with NestJS using modular structure and dependency injection
+Integrate JWT authentication and authorization in APIs
+Connect APIs with SQL/NoSQL databases using ORM/ODM (TypeORM, Mongoose)
+Implement WebSocket

@@ -39,7 +39,15 @@ def process_text_chunks_en(text, nlp, chunk_size=400, overlap=50):
         try:
             logging.info(f"Processing chunk: {chunk[:100]}...")
             doc = nlp(chunk)
-            chunk_entities = [{"word": ent.text, "entity_group": ent.label_} for ent in doc.ents]
+            chunk_entities = [
+                {
+                    "word": ent.text,
+                    "entity_group": ent.label_,
+                    "start": ent.start_char,
+                    "end": ent.end_char
+                }
+                for ent in doc.ents
+            ]
             if chunk_entities:
                 entities.extend(chunk_entities)
                 logging.info(f"Entities found: {chunk_entities}")

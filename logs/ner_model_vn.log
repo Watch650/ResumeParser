@@ -1,449 +1,117 @@
-2025-05-07 16:43:44,524 - INFO - Starting CV parser
-2025-05-07 16:43:44,524 - INFO - Verifying availability of model: NlpHUST/ner-vietnamese-electra-base
-2025-05-07 16:43:45,711 - INFO - NER model loaded successfully.
-2025-05-07 16:43:45,713 - INFO - Processing chunk: Nguyen Duc Canh INTERN/FRESHER PHP 📞0943970335 ✉Email: canhn1525@gmail.com 📍Nam Tu Liem , Ha Noi OBJ...
-2025-05-07 16:43:45,876 - INFO - Entities found: [{'entity_group': 'PERSON', 'score': np.float32(0.9992156), 'word': 'Nguyen Duc Canh', 'start': 0, 'end': 15}, {'entity_group': 'LOCATION', 'score': np.float32(0.9677074), 'word': 'Tu Liem', 'start': 80, 'end': 87}, {'entity_group': 'LOCATION', 'score': np.float32(0.99851036), 'word': 'Ha Noi', 'start': 90, 'end': 96}, {'entity_group': 'PERSON', 'score': np.float32(0.56440705), 'word': '##B', 'start': 98, 'end': 99}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.8336209), 'word': '##CATION', 'start': 362, 'end': 368}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.9950908), 'word': 'University of Economics - Techn', 'start': 369, 'end': 400}]
-2025-05-07 16:43:45,876 - INFO - Processing chunk: success. EDUCATION University of Economics - Technology for Industries (UNETI) 9/2022 - Now Computer...
-2025-05-07 16:43:46,056 - INFO - Entities found: [{'entity_group': 'ORGANIZATION', 'score': np.float32(0.9916136), 'word': 'University of Economics - Technology for Industries', 'start': 19, 'end': 70}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.9987113), 'word': 'UNETI', 'start': 72, 'end': 77}]
-2025-05-07 16:43:46,057 - INFO - Processing chunk: ce according to requirements using Vuejs, exporting data from API to website interface Add some func...
-2025-05-07 16:43:46,191 - INFO - Processing chunk: MVC SOFT SKILLS • Problem solving skills. • Self-study skills. • Communication skills • Teamwork • T...
-2025-05-07 16:43:46,328 - INFO - Processing chunk: d : Vuejs ( Nuxtjs) Backend : PHP ( Laravel ) Contribute to the project Participate in editing websi...
-2025-05-07 16:43:46,448 - INFO - Processing chunk:  in progress Manga Website ( 8/2024 - 12/2024 ) Decription A manga reading website with user-friendl...
-2025-05-07 16:43:46,584 - INFO - Processing chunk: nb1382004/Manga Function User authentication : Register, login, and manage profiles. Shopping cart :...
-2025-05-07 16:43:46,707 - INFO - Processing chunk: one sales platform with features for browsing, shopping carts, and secure payment. Teamsize Personal...
-2025-05-07 16:43:46,838 - INFO - Processing chunk:  Shopping cart : Add/remove products, view total price. Product filtering : Filter products by brand...
-2025-05-07 16:43:46,946 - INFO - Processing chunk: tend + Backend Programmer Technology Frontend : HTML , CSS ,BOOSTRAP Backend : PHP, SQL , ... Link G...
-2025-05-07 16:43:47,076 - INFO - Processing chunk: D movie and users. Time finish 3 months HONORS & AWARDS Received the second prize in the competition...
-2025-05-07 16:43:47,151 - INFO - Combined PERSON entities: ['Nguyen Duc Canh']
-2025-05-07 16:43:47,152 - INFO - Combined LOCATION entities: ['Tu Liem Ha Noi']
-2025-05-07 16:43:47,360 - INFO - Normalized input: tu liem ha noi
-2025-05-07 16:43:47,360 - INFO - Attempting fuzzy match with provinces list
-2025-05-07 16:43:47,361 - INFO - No match found
-2025-05-07 16:43:47,361 - INFO - Normalized input: tps://devwork
-2025-05-07 16:43:47,361 - INFO - Attempting fuzzy match with provinces list
-2025-05-07 16:43:47,362 - INFO - No match found
-2025-05-07 16:43:47,479 - INFO - Matched skill ID 2: (?<!\w)php(?!\w)
-2025-05-07 16:43:47,479 - INFO - Matched skill ID 44: (?<!\w)javascript(?!\w)
-2025-05-07 16:43:47,481 - INFO - Matched skill ID 63: (?<!\w)vuejs(?!\w)
-2025-05-07 16:43:47,482 - INFO - Matched skill ID 52: (?<!\w)hr(?!\w)
-2025-05-07 16:43:47,483 - INFO - Matched skill ID 100: (?<!\w)remote(?!\w)
-2025-05-07 16:43:47,485 - INFO - Matched skill ID 10: (?<!\w)laravel(?!\w)
-2025-05-07 16:43:47,489 - INFO - Matched skills: [2, 44, 63, 52, 100, 10]
-2025-05-07 16:43:47,491 - INFO - Processing chunk: PERSONAL DETAILS Name | Truong Ngoc Tuan Nationality | Vietnam Date of Birth | 31 October 1978 Gende...
-2025-05-07 16:43:47,602 - INFO - Entities found: [{'entity_group': 'PERSON', 'score': np.float32(0.99931806), 'word': 'Truong Ngoc Tuan', 'start': 24, 'end': 40}, {'entity_group': 'LOCATION', 'score': np.float32(0.5655404), 'word': 'Vietnam', 'start': 55, 'end': 62}, {'entity_group': 'LOCATION', 'score': np.float32(0.99665064), 'word': '299 / 1 Quoc Lo 13', 'start': 144, 'end': 160}, {'entity_group': 'LOCATION', 'score': np.float32(0.91922176), 'word': 'Hiep Binh', 'start': 162, 'end': 171}, {'entity_group': 'PERSON', 'score': np.float32(0.6569113), 'word': 'Phuoc', 'start': 172, 'end': 177}, {'entity_group': 'LOCATION', 'score': np.float32(0.99542135), 'word': 'Ward', 'start': 178, 'end': 182}, {'entity_group': 'LOCATION', 'score': np.float32(0.9988906), 'word': 'Thu Duc City', 'start': 184, 'end': 196}, {'entity_group': 'MISCELLANEOUS', 'score': np.float32(0.64710224), 'word': 'Ruby on Rails', 'start': 340, 'end': 353}, {'entity_group': 'LOCATION', 'score': np.float32(0.9943427), 'word': 'Australian', 'start': 358, 'end': 368}, {'entity_group': 'LOCATION', 'score': np.float32(0.99791497), 'word': 'Singapore', 'start': 373, 'end': 382}]
-2025-05-07 16:43:47,602 - INFO - Processing chunk: ils for Australian and Singapore customers. I have advanced knowledge of Ruby, Rails Framework and o...
-2025-05-07 16:43:47,702 - INFO - Entities found: [{'entity_group': 'LOCATION', 'score': np.float32(0.99896324), 'word': 'Australian', 'start': 8, 'end': 18}, {'entity_group': 'LOCATION', 'score': np.float32(0.9989881), 'word': 'Singapore', 'start': 23, 'end': 32}]
-2025-05-07 16:43:47,703 - INFO - Processing chunk:  communication and soft skills so that I can lead the team with only one purpose: the project should...
-2025-05-07 16:43:47,830 - INFO - Entities found: [{'entity_group': 'MISCELLANEOUS', 'score': np.float32(0.9874093), 'word': 'MS SQL Server', 'start': 293, 'end': 306}, {'entity_group': 'MISCELLANEOUS', 'score': np.float32(0.60504544), 'word': '##greS', 'start': 312, 'end': 316}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.61403584), 'word': 'My', 'start': 319, 'end': 321}, {'entity_group': 'MISCELLANEOUS', 'score': np.float32(0.5732512), 'word': '##S', 'start': 321, 'end': 322}, {'entity_group': 'MISCELLANEOUS', 'score': np.float32(0.523806), 'word': '##o', 'start': 331, 'end': 332}, {'entity_group': 'MISCELLANEOUS', 'score': np.float32(0.7119155), 'word': '. NET', 'start': 361, 'end': 365}]
-2025-05-07 16:43:47,831 - INFO - Processing chunk: k | Rails, .NET Framework, Laravel, Yii Cloud | AWS (EC2, S3, Code Pipeline,...) Tools and Other | G...
-2025-05-07 16:43:47,963 - INFO - Entities found: [{'entity_group': 'ORGANIZATION', 'score': np.float32(0.52653915), 'word': 'AWS', 'start': 48, 'end': 51}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.9570437), 'word': 'Ho Chi Minh University of Technologies Major | Information Technologies PROJEC', 'start': 170, 'end': 248}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.93885344), 'word': 'ShopFlex', 'start': 258, 'end': 266}]
-2025-05-07 16:43:47,964 - INFO - Processing chunk: ide system (Client side and Admin side). At Admin side: allow admin to create, update product price,...
-2025-05-07 16:43:48,078 - INFO - Processing chunk: bilities | Stand-up meetings (summary of what was done yesterday, raise the urgent issue) Report wee...
-2025-05-07 16:43:48,196 - INFO - Processing chunk: the system calls APIs to retrieve prices from third parties. Besides that, it provides APIs to suppo...
-2025-05-07 16:43:48,321 - INFO - Entities found: [{'entity_group': 'MISCELLANEOUS', 'score': np.float32(0.98714393), 'word': 'AWS EC2', 'start': 252, 'end': 259}, {'entity_group': 'MISCELLANEOUS', 'score': np.float32(0.5112355), 'word': 'MySQL', 'start': 335, 'end': 340}]
-2025-05-07 16:43:48,321 - INFO - Processing chunk:  Redis. Frontend: ReactJs, Javascript ES6, JQuery, HTML and CSS (Bootstrap 4). From | EcoWatts (03/2...
-2025-05-07 16:43:48,444 - INFO - Processing chunk: tand-up meetings Report weekly to the team leader. Propose solutions and implement tasks based on cu...
-2025-05-07 16:43:48,568 - INFO - Processing chunk: ing WPF and Windows Form. Team size | 3 Responsibilities | Implemented and maintained Windows applic...
-2025-05-07 16:43:48,681 - INFO - Entities found: [{'entity_group': 'MISCELLANEOUS', 'score': np.float32(0.9933343), 'word': 'MS SQL Server', 'start': 276, 'end': 289}, {'entity_group': 'MISCELLANEOUS', 'score': np.float32(0.57204545), 'word': 'Windows Form', 'start': 296, 'end': 308}, {'entity_group': 'LOCATION', 'score': np.float32(0.8734575), 'word': 'Vietnam', 'start': 392, 'end': 399}]
-2025-05-07 16:43:48,681 - INFO - Processing chunk: tion | Fullstack developer - Team leader (Vietnam side) Description | An e-commerce website. Team si...
-2025-05-07 16:43:48,793 - INFO - Entities found: [{'entity_group': 'MISCELLANEOUS', 'score': np.float32(0.9963243), 'word': 'Vietnam side', 'start': 42, 'end': 54}, {'entity_group': 'MISCELLANEOUS', 'score': np.float32(0.6097403), 'word': 'European customer', 'start': 144, 'end': 161}, {'entity_group': 'MISCELLANEOUS', 'score': np.float32(0.5078612), 'word': 'Ruby', 'start': 309, 'end': 313}]
-2025-05-07 16:43:48,793 - INFO - Processing chunk: eactJS, Redux, Bootstrap, Typescript From | IntroClip (10/2017 to 02/2020) Position | Backend Develo...
-2025-05-07 16:43:48,909 - INFO - Processing chunk:  system designs. Implemented and modified existing software to fix errors, adapt to new hardware and...
-2025-05-07 16:43:49,019 - INFO - Entities found: [{'entity_group': 'ORGANIZATION', 'score': np.float32(0.8063659), 'word': 'MySQL', 'start': 285, 'end': 290}]
-2025-05-07 16:43:49,019 - INFO - Processing chunk: eloper - Team member Description | An Mobile application. Team size | 2 (Backend developers), 4 (Mob...
-2025-05-07 16:43:49,124 - INFO - Processing chunk: ile application. Team size | 4 (Backend developers), 20 (Mobile developers IOS and Android) Responsi...
-2025-05-07 16:43:49,239 - INFO - Processing chunk: ide: system allow manage customer information; customize data, customize report. At client side: all...
-2025-05-07 16:43:49,349 - INFO - Processing chunk: th the Customer management system (CMS). Modified existing software to fix errors, adapt to new hard...
-2025-05-07 16:43:49,462 - INFO - Processing chunk: CSS, JQuery, and SQL Server database....
-2025-05-07 16:43:49,511 - INFO - Combined PERSON entities: ['Phuoc', 'Truong Ngoc Tuan']
-2025-05-07 16:43:49,512 - INFO - Combined LOCATION entities: ['Australian', 'Australian Singapore', 'Hiep Binh', 'Singapore Vietnam', 'Vietnam 299 / 1 Quoc Lo 13', 'Ward Thu Duc City']
-2025-05-07 16:43:49,512 - INFO - Normalized input: australian
-2025-05-07 16:43:49,512 - INFO - Attempting fuzzy match with provinces list
-2025-05-07 16:43:49,513 - INFO - No match found
-2025-05-07 16:43:49,513 - INFO - Normalized input: australian singapore
-2025-05-07 16:43:49,513 - INFO - Attempting fuzzy match with provinces list
-2025-05-07 16:43:49,514 - INFO - No match found
-2025-05-07 16:43:49,514 - INFO - Normalized input: hiep binh
-2025-05-07 16:43:49,514 - INFO - Attempting fuzzy match with provinces list
-2025-05-07 16:43:49,514 - INFO - No match found
-2025-05-07 16:43:49,514 - INFO - Normalized input: singapore vietnam
-2025-05-07 16:43:49,515 - INFO - Attempting fuzzy match with provinces list
-2025-05-07 16:43:49,515 - INFO - No match found
-2025-05-07 16:43:49,515 - INFO - Normalized input: vietnam 299 / 1 quoc lo 13
-2025-05-07 16:43:49,515 - INFO - Attempting fuzzy match with provinces list
-2025-05-07 16:43:49,516 - INFO - No match found
-2025-05-07 16:43:49,516 - INFO - Normalized input: ward thu duc city
-2025-05-07 16:43:49,516 - INFO - Attempting fuzzy match with provinces list
-2025-05-07 16:43:49,517 - INFO - No match found
-2025-05-07 16:43:49,519 - INFO - Matched skill ID 2: (?<!\w)php(?!\w)
-2025-05-07 16:43:49,519 - INFO - Matched skill ID 9: (?<!\w)android(?!\w)
-2025-05-07 16:43:49,520 - INFO - Matched skill ID 88: (?<!\w)aws(?!\w)
-2025-05-07 16:43:49,520 - INFO - Matched skill ID 44: (?<!\w)javascript(?!\w)
-2025-05-07 16:43:49,521 - INFO - Matched skill ID 28: (?<!\w)python(?!\w)
-2025-05-07 16:43:49,524 - INFO - Matched skill ID 29: (?<!\w)xml(?!\w)
-2025-05-07 16:43:49,524 - INFO - Matched skill ID 6: (?<!\w)ios(?!\w)
-2025-05-07 16:43:49,527 - INFO - Matched skill ID 27: (?<!\w)reactjs(?!\w)
-2025-05-07 16:43:49,528 - INFO - Matched skill ID 62: (?<!\w)ruby(?!\w)
-2025-05-07 16:43:49,528 - INFO - Matched skill ID 23: (?<!\w)ruby\ on\ rails(?!\w)
-2025-05-07 16:43:49,529 - INFO - Matched skill ID 18: (?<!\w)c\#(?!\w)
-2025-05-07 16:43:49,531 - INFO - Matched skill ID 36: (?<!\w)database(?!\w)
-2025-05-07 16:43:49,531 - INFO - Matched skill ID 15: (?<!\w)\.net(?!\w)
-2025-05-07 16:43:49,533 - INFO - Matched skill ID 22: (?<!\w)jquery(?!\w)
-2025-05-07 16:43:49,533 - INFO - Matched skill ID 10: (?<!\w)laravel(?!\w)
-2025-05-07 16:43:49,536 - INFO - Matched skill ID 110: (?<!\w)linux(?!\w)
-2025-05-07 16:43:49,538 - INFO - Matched skill ID 120: (?<!\w)windows(?!\w)
-2025-05-07 16:43:49,539 - INFO - Matched skill ID 127: (?<!\w)it(?!\w)
-2025-05-07 16:43:49,539 - INFO - Matched skill ID 128: (?<!\w)front\ end(?!\w)
-2025-05-07 16:43:49,540 - INFO - Matched skill ID 129: (?<!\w)back\ end(?!\w)
-2025-05-07 16:43:49,541 - INFO - Matched skill ID 139: (?<!\w)git(?!\w)
-2025-05-07 16:43:49,543 - INFO - Matched skills: [2, 9, 88, 44, 28, 29, 6, 27, 62, 23, 18, 36, 15, 22, 10, 110, 120, 127, 128, 129, 139]
-2025-05-07 16:43:49,544 - INFO - Processing chunk: Tran Huu Nghia Mobile: 0935495824 Email: Email: thnghia2006@gmail.com Address: 796/17/54M Le Duc Tho...
-2025-05-07 16:43:49,667 - INFO - Entities found: [{'entity_group': 'PERSON', 'score': np.float32(0.999243), 'word': 'Tran Huu Nghia', 'start': 0, 'end': 14}, {'entity_group': 'LOCATION', 'score': np.float32(0.9968804), 'word': '796 / 17 / 54M Le Duc Tho Street', 'start': 79, 'end': 107}, {'entity_group': 'LOCATION', 'score': np.float32(0.998996), 'word': 'Ward 15', 'start': 109, 'end': 116}, {'entity_group': 'LOCATION', 'score': np.float32(0.9970033), 'word': 'GoVap District', 'start': 118, 'end': 132}, {'entity_group': 'LOCATION', 'score': np.float32(0.9992361), 'word': 'HCMC', 'start': 134, 'end': 138}]
-2025-05-07 16:43:49,667 - INFO - Processing chunk:  and .Net frameworks, Entity Framework, .Net Core, Web API, Abp Framework,…... Enthusiastic, respons...
-2025-05-07 16:43:49,779 - INFO - Processing chunk: any, with ultimate goal of becoming professional as IT Technician. Specialties Strong knowledge of w...
-2025-05-07 16:43:49,890 - INFO - Processing chunk: s. Experience in Frontend development using JavaScript libraries such as jQuery, NodeJs, ReactJs. Ex...
-2025-05-07 16:43:50,009 - INFO - Entities found: [{'entity_group': 'ORGANIZATION', 'score': np.float32(0.9489131), 'word': 'Oracle', 'start': 128, 'end': 134}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.74935514), 'word': 'My', 'start': 136, 'end': 138}]
-2025-05-07 16:43:50,010 - INFO - Processing chunk: Good at teamwork and communication. Industry Experience Experience in various domains: HealthCare, F...
-2025-05-07 16:43:50,121 - INFO - Entities found: [{'entity_group': 'ORGANIZATION', 'score': np.float32(0.81202644), 'word': 'Health', 'start': 87, 'end': 93}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.8012016), 'word': 'Pharmac', 'start': 109, 'end': 116}, {'entity_group': 'MISCELLANEOUS', 'score': np.float32(0.68062806), 'word': 'English', 'start': 130, 'end': 137}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.991047), 'word': 'VUS school', 'start': 156, 'end': 166}, {'entity_group': 'MISCELLANEOUS', 'score': np.float32(0.8903872), 'word': 'English Score', 'start': 168, 'end': 181}]
-2025-05-07 16:43:50,121 - INFO - Processing chunk: n: ASP. NET MVC, ASP. NET core MVC, .Net Core, HTML, JavaScript, PHP, CSS, Web API, Web Service, azu...
-2025-05-07 16:43:50,269 - INFO - Entities found: [{'entity_group': 'ORGANIZATION', 'score': np.float32(0.79179364), 'word': 'MySQL', 'start': 223, 'end': 228}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.958195), 'word': 'Oracle', 'start': 230, 'end': 236}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.9373287), 'word': 'PostgreSQL', 'start': 238, 'end': 248}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.9104096), 'word': 'MongoDB', 'start': 250, 'end': 257}]
-2025-05-07 16:43:50,269 - INFO - Processing chunk: tman, Talent Test IDE/ Programming tools: Visual Studio Dot Net 2022, Dev Express, Ajax, JCreator, T...
-2025-05-07 16:43:50,386 - INFO - Entities found: [{'entity_group': 'MISCELLANEOUS', 'score': np.float32(0.9970975), 'word': 'Microsoft Office', 'start': 140, 'end': 156}, {'entity_group': 'MISCELLANEOUS', 'score': np.float32(0.9973917), 'word': 'Microsoft Office', 'start': 223, 'end': 239}]
-2025-05-07 16:43:50,387 - INFO - Processing chunk:  patterns: MVC. Methodology: Agile, Scrum, Water Fall. EDUCATION University of Natural Sciences HCM....
-2025-05-07 16:43:50,513 - INFO - Entities found: [{'entity_group': 'ORGANIZATION', 'score': np.float32(0.9093099), 'word': 'EDUCATION', 'start': 55, 'end': 64}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.9966081), 'word': 'University of Natural Sciences HCM', 'start': 65, 'end': 99}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.8886367), 'word': 'Technology', 'start': 157, 'end': 167}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.998199), 'word': 'HCM City', 'start': 169, 'end': 177}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.78466594), 'word': 'MCSA', 'start': 213, 'end': 217}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.9892516), 'word': 'MCSE Network', 'start': 219, 'end': 231}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.9911031), 'word': 'Network Essential', 'start': 233, 'end': 250}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.99680334), 'word': 'Nhat Nghe Center', 'start': 252, 'end': 268}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.9985708), 'word': 'FPT Software', 'start': 369, 'end': 381}]
-2025-05-07 16:43:50,513 - INFO - Processing chunk: s Jul 2018 - Now | FPT Software | Senior Software Engineer | Coding, testing and programming of Appl...
-2025-05-07 16:43:50,640 - INFO - Entities found: [{'entity_group': 'ORGANIZATION', 'score': np.float32(0.9844948), 'word': 'FPT Software', 'start': 19, 'end': 31}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.99719566), 'word': 'DCV Viet Nam', 'start': 258, 'end': 270}]
-2025-05-07 16:43:50,640 - INFO - Processing chunk: press, window application, web services Jul 2016 - June 2017 | CMHT Viet Nam | Senior Software Engin...
-2025-05-07 16:43:50,749 - INFO - Entities found: [{'entity_group': 'ORGANIZATION', 'score': np.float32(0.9958401), 'word': 'CMHT Viet Nam', 'start': 63, 'end': 76}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.9970634), 'word': 'DXC Viet Nam', 'start': 205, 'end': 217}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.9924647), 'word': 'Bao Minh Securities Company', 'start': 352, 'end': 379}]
-2025-05-07 16:43:50,750 - INFO - Processing chunk: | Bao Minh Securities Company. | Developer | Coding, programming of Application on .NET, ASP. NET we...
-2025-05-07 16:43:50,875 - INFO - Entities found: [{'entity_group': 'ORGANIZATION', 'score': np.float32(0.9076248), 'word': 'Bao Minh Securities Company', 'start': 2, 'end': 29}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.9976187), 'word': 'NCS Saigon Corporation', 'start': 164, 'end': 186}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.9961681), 'word': 'JESCO SE VIETNAM CO., LTD', 'start': 306, 'end': 331}]
-2025-05-07 16:43:50,875 - INFO - Processing chunk: ng, programming Java, C++ PROJECT HISTORY Project: FPT Software - TPOS (05/2024 - 12/2024) Led the d...
-2025-05-07 16:43:50,996 - INFO - Entities found: [{'entity_group': 'ORGANIZATION', 'score': np.float32(0.9975214), 'word': 'FPT Software', 'start': 51, 'end': 63}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.933295), 'word': 'TPOS', 'start': 66, 'end': 70}]
-2025-05-07 16:43:50,998 - INFO - Processing chunk: for both desktop and mobile users. Implemented robust backend services using .NET Core, handling tra...
-2025-05-07 16:43:51,106 - INFO - Processing chunk: ix bugs. Create and Execute Talent test. Technologies: .Net Core, Web services, API Restful, MySQL, ...
-2025-05-07 16:43:51,228 - INFO - Entities found: [{'entity_group': 'ORGANIZATION', 'score': np.float32(0.96772456), 'word': 'FPT Software', 'start': 130, 'end': 142}, {'entity_group': 'MISCELLANEOUS', 'score': np.float32(0.49395818), 'word': 'GI', 'start': 145, 'end': 147}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.8077191), 'word': '##TA', 'start': 147, 'end': 149}]
-2025-05-07 16:43:51,228 - INFO - Processing chunk: ormation on the factory/company, facility from the server. - Input inspection data collected from th...
-2025-05-07 16:43:51,341 - INFO - Processing chunk: m the application on iPad - Export data to PDF, excel. Project size: 12 members Roles: Developer Res...
-2025-05-07 16:43:51,462 - INFO - Entities found: [{'entity_group': 'ORGANIZATION', 'score': np.float32(0.5616708), 'word': 'MySQL', 'start': 322, 'end': 327}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.97649586), 'word': 'FPT Software', 'start': 338, 'end': 350}, {'entity_group': 'MISCELLANEOUS', 'score': np.float32(0.77065873), 'word': '##X100', 'start': 355, 'end': 359}]
-2025-05-07 16:43:51,462 - INFO - Processing chunk:  - FDX100 (01/2022 - 11/2023) The goal of the project is to perform DX for the business of FPT Retai...
-2025-05-07 16:43:51,580 - INFO - Entities found: [{'entity_group': 'MISCELLANEOUS', 'score': np.float32(0.99103236), 'word': 'FPT Retail', 'start': 91, 'end': 101}]
-2025-05-07 16:43:51,581 - INFO - Processing chunk: gies: .Net Core, abp framework, Web Services, API Restful, SQL Server, Elastic Search, Rabbit MQ, Ka...
-2025-05-07 16:43:51,708 - INFO - Entities found: [{'entity_group': 'ORGANIZATION', 'score': np.float32(0.963164), 'word': 'FPT Software', 'start': 115, 'end': 127}, {'entity_group': 'MISCELLANEOUS', 'score': np.float32(0.77763766), 'word': 'Kelly Blue Book', 'start': 258, 'end': 273}]
-2025-05-07 16:43:51,708 - INFO - Processing chunk: omer. Project size: 10 members Roles: Developer Responsibilities: Implemented backend services using...
-2025-05-07 16:43:51,843 - INFO - Entities found: [{'entity_group': 'ORGANIZATION', 'score': np.float32(0.9990226), 'word': 'AWS', 'start': 136, 'end': 139}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.99864465), 'word': 'AWS', 'start': 271, 'end': 274}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.9986117), 'word': 'FPT Software', 'start': 284, 'end': 296}]
-2025-05-07 16:43:51,844 - INFO - Processing chunk: ystem to Azure Project size: 8 members Roles: Developer Responsibilities: Implemented backend servic...
-2025-05-07 16:43:51,978 - INFO - Entities found: [{'entity_group': 'MISCELLANEOUS', 'score': np.float32(0.99476624), 'word': 'MS SQL Server', 'start': 246, 'end': 259}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.9983716), 'word': 'FPT Software', 'start': 270, 'end': 282}]
-2025-05-07 16:43:51,979 - INFO - Processing chunk: "ketnoi.aia.com.vn" also support bugs fixing on PRODUCTION (AIA customer) Project size: 35 members R...
-2025-05-07 16:43:52,109 - INFO - Entities found: [{'entity_group': 'MISCELLANEOUS', 'score': np.float32(0.9436385), 'word': 'MS SQL Server', 'start': 265, 'end': 278}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.99646324), 'word': 'FPT Software', 'start': 289, 'end': 301}]
-2025-05-07 16:43:52,110 - INFO - Processing chunk:  to build a cloud-based solution (namely is PMS365) for veterinary practice management with below se...
-2025-05-07 16:43:52,223 - INFO - Entities found: [{'entity_group': 'LOCATION', 'score': np.float32(0.99423534), 'word': 'Korea', 'start': 282, 'end': 287}]
-2025-05-07 16:43:52,224 - INFO - Processing chunk: mplemented backend services using .NET Framework, WPF, WCF, ASP. NET MVC Development new features, i...
-2025-05-07 16:43:52,340 - INFO - Entities found: [{'entity_group': 'ORGANIZATION', 'score': np.float32(0.9899559), 'word': 'CSC Ltd', 'start': 218, 'end': 225}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.98440886), 'word': 'HealthCare Application', 'start': 228, 'end': 250}]
-2025-05-07 16:43:52,340 - INFO - Processing chunk: nt files, document of the patients in the hospital Customer: Usa. Project size: 25 members Roles: De...
-2025-05-07 16:43:52,461 - INFO - Entities found: [{'entity_group': 'ORGANIZATION', 'score': np.float32(0.99810874), 'word': 'Oracle', 'start': 314, 'end': 320}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.99574554), 'word': 'LinQ', 'start': 322, 'end': 326}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.99816734), 'word': 'Bao Minh Securites Ltd', 'start': 368, 'end': 390}]
-2025-05-07 16:43:52,461 - INFO - Processing chunk: ML, CSS. Project: Bao Minh Securites Ltd (05/2011 - 06/2014) The project is management core of the s...
-2025-05-07 16:43:52,559 - INFO - Entities found: [{'entity_group': 'ORGANIZATION', 'score': np.float32(0.9791661), 'word': 'Bao Minh Securites Ltd', 'start': 18, 'end': 40}]
-2025-05-07 16:43:52,559 - INFO - Processing chunk: ation for shareholders meeting. Technologies: .NET Framework, SQL Server, Oracle, Crytal report, .Ne...
-2025-05-07 16:43:52,619 - INFO - Entities found: [{'entity_group': 'ORGANIZATION', 'score': np.float32(0.93944573), 'word': 'Oracle', 'start': 74, 'end': 80}]
-2025-05-07 16:43:52,620 - INFO - Combined PERSON entities: ['Tran Huu Nghia']
-2025-05-07 16:43:52,621 - INFO - Combined LOCATION entities: ['796 / 17 / 54M Le Duc Tho Street', 'GoVap District', 'HCMC', 'Korea', 'Ward 15']
-2025-05-07 16:43:52,621 - INFO - Normalized input: 796 / 17 / 54m le duc tho street
-2025-05-07 16:43:52,621 - INFO - Attempting fuzzy match with provinces list
-2025-05-07 16:43:52,622 - INFO - No match found
-2025-05-07 16:43:52,622 - INFO - Normalized input: govap district
-2025-05-07 16:43:52,622 - INFO - Attempting fuzzy match with provinces list
-2025-05-07 16:43:52,623 - INFO - No match found
-2025-05-07 16:43:52,623 - INFO - Normalized input: hcmc
-2025-05-07 16:43:52,623 - INFO - Match found in common abbreviations: Hồ Chí Minh
-2025-05-07 16:43:52,623 - INFO - Matched province: Hồ Chí Minh with ID 79
-2025-05-07 16:43:52,623 - INFO - Normalized input: korea
-2025-05-07 16:43:52,623 - INFO - Attempting fuzzy match with provinces list
-2025-05-07 16:43:52,624 - INFO - No match found
-2025-05-07 16:43:52,624 - INFO - Normalized input: ward 15
-2025-05-07 16:43:52,624 - INFO - Attempting fuzzy match with provinces list
-2025-05-07 16:43:52,624 - INFO - No match found
-2025-05-07 16:43:52,626 - INFO - Matched skill ID 4: (?<!\w)nodejs(?!\w)
-2025-05-07 16:43:52,627 - INFO - Matched skill ID 5: (?<!\w)asp\.net(?!\w)
-2025-05-07 16:43:52,627 - INFO - Matched skill ID 2: (?<!\w)php(?!\w)
-2025-05-07 16:43:52,628 - INFO - Matched skill ID 88: (?<!\w)aws(?!\w)
-2025-05-07 16:43:52,629 - INFO - Matched skill ID 44: (?<!\w)javascript(?!\w)
-2025-05-07 16:43:52,629 - INFO - Matched skill ID 26: (?<!\w)postgresql(?!\w)
-2025-05-07 16:43:52,640 - INFO - Matched skill ID 25: (?<!\w)oracle(?!\w)
-2025-05-07 16:43:52,640 - INFO - Matched skill ID 27: (?<!\w)reactjs(?!\w)
-2025-05-07 16:43:52,642 - INFO - Matched skill ID 83: (?<!\w)scrum\ master(?!\w)
-2025-05-07 16:43:52,644 - INFO - Matched skill ID 82: (?<!\w)azure(?!\w)
-2025-05-07 16:43:52,644 - INFO - Matched skill ID 18: (?<!\w)c\#(?!\w)
-2025-05-07 16:43:52,644 - INFO - Matched skill ID 8: (?<!\w)c\+\+(?!\w)
-2025-05-07 16:43:52,646 - INFO - Matched skill ID 36: (?<!\w)database(?!\w)
-2025-05-07 16:43:52,646 - INFO - Matched skill ID 96: (?<!\w)docker(?!\w)
-2025-05-07 16:43:52,647 - INFO - Matched skill ID 15: (?<!\w)\.net(?!\w)
-2025-05-07 16:43:52,647 - INFO - Matched skill ID 80: (?<!\w)express(?!\w)
-2025-05-07 16:43:52,650 - INFO - Matched skill ID 22: (?<!\w)jquery(?!\w)
-2025-05-07 16:43:52,650 - INFO - Matched skill ID 14: (?<!\w)java(?!\w)
-2025-05-07 16:43:52,656 - INFO - Matched skill ID 120: (?<!\w)windows(?!\w)
-2025-05-07 16:43:52,659 - INFO - Matched skill ID 127: (?<!\w)it(?!\w)
-2025-05-07 16:43:52,661 - INFO - Matched skill ID 137: (?<!\w)hibernate(?!\w)
-2025-05-07 16:43:52,662 - INFO - Matched skill ID 139: (?<!\w)git(?!\w)
-2025-05-07 16:43:52,665 - INFO - Matched skills: [4, 5, 2, 88, 44, 26, 25, 27, 83, 82, 18, 8, 36, 96, 15, 80, 22, 14, 120, 127, 137, 139]
-2025-05-07 16:43:52,666 - INFO - Processing chunk: Hoàng Lân V˜u Front-end Developer Intern Hanoi, Vietnam | 11/09/2004 | Email: hlvu650@gmail.com | 08...
-2025-05-07 16:43:52,793 - INFO - Entities found: [{'entity_group': 'PERSON', 'score': np.float32(0.9993386), 'word': 'Hoàng Lân', 'start': 0, 'end': 9}, {'entity_group': 'MISCELLANEOUS', 'score': np.float32(0.95951957), 'word': 'Intern Hanoi', 'start': 34, 'end': 46}, {'entity_group': 'LOCATION', 'score': np.float32(0.9968317), 'word': 'Vietnam', 'start': 48, 'end': 55}, {'entity_group': 'PERSON', 'score': np.float32(0.97008246), 'word': 'hoàng - lân', 'start': 127, 'end': 136}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.9958199), 'word': 'USTH', 'start': 227, 'end': 231}]
-2025-05-07 16:43:52,793 - INFO - Processing chunk: velopment using the MERN stack (React, Node.js) and enthusiastic about designing clean, modern, and ...
-2025-05-07 16:43:52,906 - INFO - Entities found: [{'entity_group': 'ORGANIZATION', 'score': np.float32(0.9935783), 'word': 'Education University of Science and Technology Hanoi', 'start': 308, 'end': 360}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.9642317), 'word': 'USTH', 'start': 362, 'end': 366}]
-2025-05-07 16:43:52,906 - INFO - Processing chunk: logy Hanoi (USTH) 2022 - Present • Major in Information and Communication Technology. • Coursework: ...
-2025-05-07 16:43:53,021 - INFO - Entities found: [{'entity_group': 'MISCELLANEOUS', 'score': np.float32(0.9436961), 'word': 'logy Hanoi', 'start': 0, 'end': 10}, {'entity_group': 'MISCELLANEOUS', 'score': np.float32(0.9371971), 'word': 'USTH', 'start': 12, 'end': 16}, {'entity_group': 'MISCELLANEOUS', 'score': np.float32(0.527219), 'word': 'English', 'start': 211, 'end': 218}]
-2025-05-07 16:43:53,022 - INFO - Processing chunk:  Frameworks & Libraries: React, Node.js, Express.js, Flask, Electron. Databases: MySQL, MongoDB. Too...
-2025-05-07 16:43:53,144 - INFO - Processing chunk: media player control using hand gestures. • Designed and implemented an interactive UI using React a...
-2025-05-07 16:43:53,260 - INFO - Processing chunk:  Electron, OpenCV. GitHub Repository: GitHub: github.com/LamPhamNgoc1310/USTHGroupProject E-learning...
-2025-05-07 16:43:53,389 - INFO - Entities found: [{'entity_group': 'PERSON', 'score': np.float32(0.6552409), 'word': 'LamPha', 'start': 57, 'end': 63}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.5045311), 'word': '##m', 'start': 63, 'end': 64}, {'entity_group': 'PERSON', 'score': np.float32(0.5712085), 'word': '##Ng', 'start': 64, 'end': 66}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.37928328), 'word': '##oc', 'start': 66, 'end': 68}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.8686253), 'word': 'USTHGroupPro', 'start': 73, 'end': 85}]
-2025-05-07 16:43:53,389 - INFO - Processing chunk:  GitHub Repository: GitHub: github.com/Watch650/WebDev2024...
-2025-05-07 16:43:53,441 - INFO - Combined PERSON entities: ['Hoàng Lân', 'LamPha', 'Ng', 'hoàng - lân']
-2025-05-07 16:43:53,442 - INFO - Combined LOCATION entities: ['Vietnam']
-2025-05-07 16:43:53,442 - INFO - Normalized input: vietnam
-2025-05-07 16:43:53,442 - INFO - Attempting fuzzy match with provinces list
-2025-05-07 16:43:53,442 - INFO - No match found
-2025-05-07 16:43:53,444 - INFO - Matched skill ID 44: (?<!\w)javascript(?!\w)
-2025-05-07 16:43:53,444 - INFO - Matched skill ID 28: (?<!\w)python(?!\w)
-2025-05-07 16:43:53,445 - INFO - Matched skill ID 67: (?<!\w)ai(?!\w)
-2025-05-07 16:43:53,448 - INFO - Matched skill ID 90: (?<!\w)data\ mining(?!\w)
-2025-05-07 16:43:53,448 - INFO - Matched skill ID 36: (?<!\w)database(?!\w)
-2025-05-07 16:43:53,448 - INFO - Matched skill ID 65: (?<!\w)devops(?!\w)
-2025-05-07 16:43:53,448 - INFO - Matched skill ID 96: (?<!\w)docker(?!\w)
-2025-05-07 16:43:53,449 - INFO - Matched skill ID 80: (?<!\w)express(?!\w)
-2025-05-07 16:43:53,449 - INFO - Matched skill ID 14: (?<!\w)java(?!\w)
-2025-05-07 16:43:53,452 - INFO - Matched skill ID 139: (?<!\w)git(?!\w)
-2025-05-07 16:43:53,453 - INFO - Matched skills: [44, 28, 67, 90, 36, 65, 96, 80, 14, 139]
-2025-05-07 16:43:53,456 - INFO - Successfully processed 4 files to C:\Users\Asus\Downloads\Hachinet\PDFtoJSON\parsed_data\extracted_cv_data_vn.json
-2025-05-07 16:46:35,949 - INFO - Starting CV parser
-2025-05-07 16:46:35,950 - INFO - Verifying availability of model: NlpHUST/ner-vietnamese-electra-base
-2025-05-07 16:46:37,202 - INFO - NER model loaded successfully.
-2025-05-07 16:46:37,204 - INFO - Processing chunk: BUI DO DAT Huyện Thanh Oai, Thành Phố Hà Nội. Phone: +84965263725 Email: dathbta04@gmail.com GitHub:...
-2025-05-07 16:46:37,388 - INFO - Entities found: [{'entity_group': 'PERSON', 'score': np.float32(0.9274081), 'word': 'BUI DO DAT', 'start': 0, 'end': 10}, {'entity_group': 'LOCATION', 'score': np.float32(0.9873576), 'word': 'Huyện Thanh Oai', 'start': 11, 'end': 26}, {'entity_group': 'LOCATION', 'score': np.float32(0.99635226), 'word': 'Thành Phố Hà Nội', 'start': 28, 'end': 44}]
-2025-05-07 16:46:37,388 - INFO - Processing chunk: ở rộng. Mục tiêu nghề nghiệp của tôi là trở thành một lập trình viên fullstack, hợp tác với đội nhóm...
-2025-05-07 16:46:37,515 - INFO - Entities found: [{'entity_group': 'ORGANIZATION', 'score': np.float32(0.9854235), 'word': 'Cao Đẳng FPT POLYTECHNIC', 'start': 194, 'end': 218}]
-2025-05-07 16:46:37,515 - INFO - Processing chunk: ả công nghệ font-end và backend. Bên cạnh đó tôi còn được tham gia các hoạt động ngoại khóa, phát tr...
-2025-05-07 16:46:37,629 - INFO - Processing chunk: ỉ đặt vé xem phim bên cạnh đó có thể mua các dịch vụ đi kèm bao gồm bỏng, nước. e Cung cấp các ưu đã...
-2025-05-07 16:46:37,757 - INFO - Entities found: [{'entity_group': 'ORGANIZATION', 'score': np.float32(0.9992918), 'word': 'VNPAY', 'start': 289, 'end': 294}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.99902606), 'word': 'Momo', 'start': 296, 'end': 300}]
-2025-05-07 16:46:37,757 - INFO - Processing chunk: anh đơn hang. « Tích hợp đăng nhập bằng Google. e Các phòng chiếu sử dung các mẫu sơ đồ ghế. Có thể ...
-2025-05-07 16:46:37,904 - INFO - Processing chunk: bsite bán nước hoa Perfume 10/2023 - 12/2023 Nhóm trưởng Website cung cấp đầy đủ các chức năng cơ bả...
-2025-05-07 16:46:38,040 - INFO - Entities found: [{'entity_group': 'ORGANIZATION', 'score': np.float32(0.8426016), 'word': 'VNPay', 'start': 263, 'end': 268}]
-2025-05-07 16:46:38,040 - INFO - Processing chunk: . Source code DI TU https://GitHub: github.com/buidodat/Duan1 KY NANG e _ Ngôn ngữ lập trình: PHP, J...
-2025-05-07 16:46:38,128 - INFO - Combined PERSON entities: ['BUI DO DAT']
-2025-05-07 16:46:38,129 - INFO - Combined LOCATION entities: ['Huyện Thanh Oai Thành Phố Hà Nội']
-2025-05-07 16:46:38,225 - INFO - Normalized input: huyện thanh oai thành phố hà nội
-2025-05-07 16:46:38,226 - INFO - Attempting fuzzy match with provinces list
-2025-05-07 16:46:38,226 - INFO - Fuzzy match found: Hà Nội (Score: 90.0)
-2025-05-07 16:46:38,226 - INFO - Final matched province ID: 1
-2025-05-07 16:46:38,326 - INFO - Matched skill ID 2: (?<!\w)php(?!\w)
-2025-05-07 16:46:38,326 - INFO - Matched skill ID 44: (?<!\w)javascript(?!\w)
-2025-05-07 16:46:38,331 - INFO - Matched skill ID 22: (?<!\w)jquery(?!\w)
-2025-05-07 16:46:38,331 - INFO - Matched skill ID 14: (?<!\w)java(?!\w)
-2025-05-07 16:46:38,332 - INFO - Matched skill ID 10: (?<!\w)laravel(?!\w)
-2025-05-07 16:46:38,335 - INFO - Matched skills: [2, 44, 22, 14, 10]
-2025-05-07 16:46:38,336 - INFO - Processing chunk: Hoàng Kim Thắng Front-End Developer Số điện thoại 0973182434 Email Email: hk.thang95@gmail.com Ngày ...
-2025-05-07 16:46:38,450 - INFO - Entities found: [{'entity_group': 'PERSON', 'score': np.float32(0.99878913), 'word': 'Hoàng Kim Thắng', 'start': 0, 'end': 15}, {'entity_group': 'LOCATION', 'score': np.float32(0.99888325), 'word': '147 Triều Khúc', 'start': 124, 'end': 138}, {'entity_group': 'LOCATION', 'score': np.float32(0.9989586), 'word': 'Hà Nội', 'start': 140, 'end': 146}, {'entity_group': 'LOCATION', 'score': np.float32(0.99911046), 'word': 'Nhật Bản', 'start': 264, 'end': 272}]
-2025-05-07 16:46:38,451 - INFO - Processing chunk: nd và tôi thích làm việc với giao điện để tạo ra trải nghiệm tốt nhất cho người dùng. Học vấn 08/201...
-2025-05-07 16:46:38,558 - INFO - Entities found: [{'entity_group': 'ORGANIZATION', 'score': np.float32(0.9994435), 'word': 'Trường Đại học Bách khoa Hà Nội', 'start': 112, 'end': 143}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.7837057), 'word': 'Tử Viễn', 'start': 150, 'end': 157}, {'entity_group': 'MISCELLANEOUS', 'score': np.float32(0.7431979), 'word': 'FPT Software Front', 'start': 260, 'end': 278}]
-2025-05-07 16:46:38,558 - INFO - Processing chunk: liệu Detail Design phục vụ phát triển phần mềm Xây dựng và phát triển các tính năng giao diện trên m...
-2025-05-07 16:46:38,677 - INFO - Entities found: [{'entity_group': 'ORGANIZATION', 'score': np.float32(0.99891233), 'word': 'SamSung Display Việt Nam', 'start': 130, 'end': 154}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.99674654), 'word': 'NAGASE & CO., LTD', 'start': 316, 'end': 333}]
-2025-05-07 16:46:38,678 - INFO - Processing chunk: VC C# app sang sử dụng webapp và phát triển các chức năng mới. Số thành viên 50-150 member Vị trí cô...
-2025-05-07 16:46:38,811 - INFO - Entities found: [{'entity_group': 'MISCELLANEOUS', 'score': np.float32(0.5973656), 'word': 'C', 'start': 276, 'end': 277}, {'entity_group': 'MISCELLANEOUS', 'score': np.float32(0.51777416), 'word': 'My', 'start': 280, 'end': 282}, {'entity_group': 'MISCELLANEOUS', 'score': np.float32(0.9866025), 'word': 'Nihon Chouzai WebApp', 'start': 304, 'end': 324}, {'entity_group': 'PERSON', 'score': np.float32(0.9839165), 'word': 'Nihon Chouzai', 'start': 356, 'end': 369}]
-2025-05-07 16:46:38,811 - INFO - Processing chunk:  hàng Nihon Chouzai Mô tả Trang web phục vụ cho công ty dược phẩm của nhật bản. Các chức năng chính ...
-2025-05-07 16:46:38,919 - INFO - Entities found: [{'entity_group': 'MISCELLANEOUS', 'score': np.float32(0.8381315), 'word': 'Nihon Chouzai', 'start': 6, 'end': 19}, {'entity_group': 'LOCATION', 'score': np.float32(0.99839544), 'word': 'nhật bản', 'start': 70, 'end': 78}]
-2025-05-07 16:46:38,919 - INFO - Processing chunk: Xây dựng tài liệu detail design theo requirement của khách hàng. Coding các feature màn hình theo De...
-2025-05-07 16:46:39,035 - INFO - Entities found: [{'entity_group': 'MISCELLANEOUS', 'score': np.float32(0.9161066), 'word': 'C #', 'start': 255, 'end': 257}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.9990731), 'word': 'SoftBank Group Corp', 'start': 316, 'end': 335}]
-2025-05-07 16:46:39,036 - INFO - Processing chunk: b quản lý, đăng ký quyền hạn ra vào các phòng ban của các nhân viên trong các chi nhánh Số thành viê...
-2025-05-07 16:46:39,147 - INFO - Processing chunk: SS, Javascript(ReactJS) Backend: Java Kỹ năng Ngôn ngữ lập trình : HTML, CSS, JavaScript (Angular( N...
-2025-05-07 16:46:39,247 - INFO - Entities found: [{'entity_group': 'MISCELLANEOUS', 'score': np.float32(0.9984497), 'word': 'Tiếng Anh', 'start': 224, 'end': 233}]
-2025-05-07 16:46:39,248 - INFO - Combined PERSON entities: ['Hoàng Kim Thắng', 'Nihon Chouzai']
-2025-05-07 16:46:39,249 - INFO - Combined LOCATION entities: ['147 Triều Khúc', 'Hà Nội', 'Nhật Bản', 'nhật bản']
-2025-05-07 16:46:39,249 - INFO - Normalized input: 147 triều khúc
-2025-05-07 16:46:39,249 - INFO - Attempting fuzzy match with provinces list
-2025-05-07 16:46:39,249 - INFO - No match found
-2025-05-07 16:46:39,250 - INFO - Normalized input: hà nội
-2025-05-07 16:46:39,250 - INFO - Match found in common abbreviations: Hà Nội
-2025-05-07 16:46:39,250 - INFO - Matched province: Hà Nội with ID 1
-2025-05-07 16:46:39,250 - INFO - Normalized input: nhật bản
-2025-05-07 16:46:39,250 - INFO - Attempting fuzzy match with provinces list
-2025-05-07 16:46:39,250 - INFO - No match found
-2025-05-07 16:46:39,251 - INFO - Normalized input: nhật bản
-2025-05-07 16:46:39,251 - INFO - Attempting fuzzy match with provinces list
-2025-05-07 16:46:39,251 - INFO - No match found
-2025-05-07 16:46:39,253 - INFO - Matched skill ID 16: (?<!\w)angular(?!\w)
-2025-05-07 16:46:39,253 - INFO - Matched skill ID 44: (?<!\w)javascript(?!\w)
-2025-05-07 16:46:39,257 - INFO - Matched skill ID 27: (?<!\w)reactjs(?!\w)
-2025-05-07 16:46:39,258 - INFO - Matched skill ID 18: (?<!\w)c\#(?!\w)
-2025-05-07 16:46:39,260 - INFO - Matched skill ID 14: (?<!\w)java(?!\w)
-2025-05-07 16:46:39,263 - INFO - Matched skill ID 127: (?<!\w)it(?!\w)
-2025-05-07 16:46:39,264 - INFO - Matched skill ID 139: (?<!\w)git(?!\w)
-2025-05-07 16:46:39,265 - INFO - Matched skills: [16, 44, 27, 18, 14, 127, 139]
-2025-05-07 16:46:39,266 - INFO - Processing chunk: NGUYỄN VĂN TIẾN PHÁT IT SUPPORT/NETWORK Nam 14/04/1990 0972662139 Email: tienphat.tdt@gmail.com 313/...
-2025-05-07 16:46:39,390 - INFO - Entities found: [{'entity_group': 'LOCATION', 'score': np.float32(0.99797696), 'word': '313 / 19 Nơ Trang Long', 'start': 96, 'end': 116}, {'entity_group': 'LOCATION', 'score': np.float32(0.9974661), 'word': 'P13', 'start': 117, 'end': 120}, {'entity_group': 'LOCATION', 'score': np.float32(0.9981235), 'word': 'Q. Bình Thạnh', 'start': 121, 'end': 134}, {'entity_group': 'LOCATION', 'score': np.float32(0.9954688), 'word': 'TP. HCM', 'start': 135, 'end': 142}]
-2025-05-07 16:46:39,390 - INFO - Processing chunk:  được thăng tiến trở thành một chuyên viên Công nghệ thông tin trong lĩnh vực IT -Phần cứng KỸ NĂNG ...
-2025-05-07 16:46:39,505 - INFO - Entities found: [{'entity_group': 'ORGANIZATION', 'score': np.float32(0.9986319), 'word': 'VNPRO', 'start': 174, 'end': 179}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.99924624), 'word': 'Trường ĐH Tôn Đức Thắng', 'start': 248, 'end': 271}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.9994541), 'word': 'Công Ty Cổ Phần AEG Việt Nam', 'start': 326, 'end': 354}]
-2025-05-07 16:46:39,505 - INFO - Processing chunk:  Nam 2021 - nay - Quản lý domain (cấp phát user, group, OU, policy, RDS...). - Quản trị tổng đài điệ...
-2025-05-07 16:46:39,638 - INFO - Entities found: [{'entity_group': 'MISCELLANEOUS', 'score': np.float32(0.9756752), 'word': 'MS Azure', 'start': 121, 'end': 129}]
-2025-05-07 16:46:39,638 - INFO - Processing chunk: nage Engine. - Hỗ trợ end-user. Chuyên ngành Điện tử viễn thông Vị trí: IT Support TRÌNH ĐỘ HỌC VẤN ...
-2025-05-07 16:46:39,747 - INFO - Entities found: [{'entity_group': 'PERSON', 'score': np.float32(0.9993654), 'word': 'Nguyễn Sỹ Toán', 'start': 143, 'end': 157}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.9992929), 'word': 'Công Ty Cổ Phần AEG Việt Nam', 'start': 197, 'end': 225}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.9994406), 'word': 'Công Ty Cổ Phần Đại Phú Lộc', 'start': 252, 'end': 279}]
-2025-05-07 16:46:39,747 - INFO - Processing chunk: ạng . - Quản lý user domain, tổng đài điện thoại, email, Trend Micro . - Quản lý các thiết bị mạng (...
-2025-05-07 16:46:39,846 - INFO - Entities found: [{'entity_group': 'ORGANIZATION', 'score': np.float32(0.98097014), 'word': 'Công Ty Cổ Phần Tư Vấn Đầu Tư Và Quản Lý Bất Động Sản Saig', 'start': 342, 'end': 400}]
-2025-05-07 16:46:39,846 - INFO - Processing chunk: Cổ Phần Tư Vấn Đầu Tư Và Quản Lý Bất Động Sản Saigon Center Real 2019 - 2020 - Thực hiện sửa chữa mạ...
-2025-05-07 16:46:39,997 - INFO - Entities found: [{'entity_group': 'ORGANIZATION', 'score': np.float32(0.9962663), 'word': 'Cổ Phần Tư Vấn Đầu Tư Và Quản Lý Bất Động Sản Saigon Center Real', 'start': 0, 'end': 64}]
-2025-05-07 16:46:39,998 - INFO - Processing chunk:  nhân viên sale - Báo cáo công việc hàng ngày Công Ty Cổ Phần Viễn Thông ACT 2016 - 2019 - Triển kha...
-2025-05-07 16:46:40,105 - INFO - Entities found: [{'entity_group': 'ORGANIZATION', 'score': np.float32(0.99938613), 'word': 'Công Ty Cổ Phần Viễn Thông ACT', 'start': 46, 'end': 76}]
-2025-05-07 16:46:40,105 - INFO - Processing chunk:  trí: Nhân viên IT hỗ trợ kỹ thuật Vị trí: Nhân viên IT hỗ trợ kỹ thuật...
-2025-05-07 16:46:40,158 - INFO - Combined PERSON entities: ['Nguyễn Sỹ Toán']
-2025-05-07 16:46:40,158 - INFO - Combined LOCATION entities: ['313 / 19 Nơ Trang Long P13 Q. Bình Thạnh', 'TP. HCM']
-2025-05-07 16:46:40,158 - INFO - Normalized input: 313 / 19 nơ trang long p13 q. bình thạnh
-2025-05-07 16:46:40,159 - INFO - Attempting fuzzy match with provinces list
-2025-05-07 16:46:40,159 - INFO - No match found
-2025-05-07 16:46:40,159 - INFO - Normalized input: tp. hcm
-2025-05-07 16:46:40,159 - INFO - Match found in common abbreviations: Hồ Chí Minh
-2025-05-07 16:46:40,160 - INFO - Matched province: Hồ Chí Minh with ID 79
-2025-05-07 16:46:40,164 - INFO - Matched skill ID 100: (?<!\w)remote(?!\w)
-2025-05-07 16:46:40,165 - INFO - Matched skill ID 82: (?<!\w)azure(?!\w)
-2025-05-07 16:46:40,166 - INFO - Matched skill ID 68: (?<!\w)game(?!\w)
-2025-05-07 16:46:40,168 - INFO - Matched skill ID 114: (?<!\w)cisco(?!\w)
-2025-05-07 16:46:40,169 - INFO - Matched skill ID 118: (?<!\w)firewall(?!\w)
-2025-05-07 16:46:40,170 - INFO - Matched skill ID 127: (?<!\w)it(?!\w)
-2025-05-07 16:46:40,171 - INFO - Matched skills: [100, 82, 68, 114, 118, 127]
-2025-05-07 16:46:40,173 - INFO - Processing chunk: SƠ YẾU LÝ LỊCH Họ và tên: Phạm Thị Xuân Vị trí ứng tuyển: Senior .NET Remote Ngày sinh: 09/03/1994 G...
-2025-05-07 16:46:40,295 - INFO - Entities found: [{'entity_group': 'PERSON', 'score': np.float32(0.9993797), 'word': 'Phạm Thị Xuân', 'start': 26, 'end': 39}, {'entity_group': 'LOCATION', 'score': np.float32(0.9988546), 'word': 'Xã Đông Phương', 'start': 182, 'end': 196}, {'entity_group': 'LOCATION', 'score': np.float32(0.9990923), 'word': 'Huyện Đông Hưng', 'start': 198, 'end': 213}, {'entity_group': 'LOCATION', 'score': np.float32(0.99907225), 'word': 'Tỉnh Thái Bình', 'start': 215, 'end': 229}]
-2025-05-07 16:46:40,295 - INFO - Processing chunk: uyết vấn đề, đồng thời không ngừng học hỏi và nâng cao chuyên môn. HỌC VẤN 09/2012 - 05/2016 Đại học...
-2025-05-07 16:46:40,435 - INFO - Entities found: [{'entity_group': 'ORGANIZATION', 'score': np.float32(0.99683684), 'word': 'Đại học Giao Thông Vận Tải', 'start': 93, 'end': 119}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.8865663), 'word': ': Công Nghệ thông tin', 'start': 124, 'end': 145}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.9787635), 'word': 'Oracle', 'start': 329, 'end': 335}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.66233826), 'word': 'MyS', 'start': 349, 'end': 352}]
-2025-05-07 16:46:40,435 - INFO - Processing chunk: ySQL, PostgreSQL, ...  Công cụ: SVN, Postman, ... Kỹ năng giao tiếp  Giao tiếp mạch lạc và linh ho...
-2025-05-07 16:46:40,545 - INFO - Processing chunk: ng thẳng và giữ bình tĩnh trong mọi hoàn cảnh Ngoại ngữ  Tiếng Anh cơ bản Kỹ năng khác  Sử dụng th...
-2025-05-07 16:46:40,649 - INFO - Entities found: [{'entity_group': 'MISCELLANEOUS', 'score': np.float32(0.9983462), 'word': 'Tiếng Anh', 'start': 58, 'end': 67}, {'entity_group': 'MISCELLANEOUS', 'score': np.float32(0.9968357), 'word': 'Microsoft Office', 'start': 136, 'end': 152}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.9994848), 'word': 'Công ty Cổ phần Tin học Viễn Thông Petrolimex', 'start': 225, 'end': 270}]
-2025-05-07 16:46:40,649 - INFO - Processing chunk: à triển khai phần mềm ERP cho khối xăng dầu  Tham gia các dự án: Bảo trì, nâng cấp Phần mềm Quản lý...
-2025-05-07 16:46:40,760 - INFO - Processing chunk: . SỞ THÍCH  Học hỏi công nghệ mới, các phần mềm mã nguồn mở  Tạo lập website, dựng kênh mạng xã hộ...
-2025-05-07 16:46:40,856 - INFO - Entities found: [{'entity_group': 'PERSON', 'score': np.float32(0.9993958), 'word': 'Phạm Thị Xuân', 'start': 318, 'end': 331}]
-2025-05-07 16:46:40,857 - INFO - Combined PERSON entities: ['Phạm Thị Xuân']
-2025-05-07 16:46:40,857 - INFO - Combined LOCATION entities: ['Xã Đông Phương Huyện Đông Hưng Tỉnh Thái Bình']
-2025-05-07 16:46:40,857 - INFO - Normalized input: xã đông phương huyện đông hưng tỉnh thái bình
-2025-05-07 16:46:40,857 - INFO - Attempting fuzzy match with provinces list
-2025-05-07 16:46:40,857 - INFO - No match found
-2025-05-07 16:46:40,858 - INFO - Normalized input: tỉnh thái bình
-2025-05-07 16:46:40,858 - INFO - Attempting fuzzy match with provinces list
-2025-05-07 16:46:40,858 - INFO - No match found
-2025-05-07 16:46:40,860 - INFO - Matched skill ID 26: (?<!\w)postgresql(?!\w)
-2025-05-07 16:46:40,864 - INFO - Matched skill ID 25: (?<!\w)oracle(?!\w)
-2025-05-07 16:46:40,864 - INFO - Matched skill ID 100: (?<!\w)remote(?!\w)
-2025-05-07 16:46:40,866 - INFO - Matched skill ID 15: (?<!\w)\.net(?!\w)
-2025-05-07 16:46:40,872 - INFO - Matched skills: [26, 25, 100, 15]
-2025-05-07 16:46:40,875 - INFO - Successfully processed 4 files to C:\Users\Asus\Downloads\Hachinet\PDFtoJSON\parsed_data\extracted_cv_data_vn.json
-2025-05-07 18:01:25,509 - INFO - Starting CV parser
-2025-05-07 18:01:25,509 - INFO - Verifying availability of model: NlpHUST/ner-vietnamese-electra-base
-2025-05-07 18:01:26,714 - INFO - NER model loaded successfully.
-2025-05-07 18:01:26,718 - INFO - Processing chunk: BUI DO DAT Huyện Thanh Oai, Thành Phố Hà Nội. Phone: +84965263725 Email: dathbta04@gmail.com GitHub:...
-2025-05-07 18:01:26,922 - INFO - Entities found: [{'entity_group': 'PERSON', 'score': np.float32(0.9274081), 'word': 'BUI DO DAT', 'start': 0, 'end': 10}, {'entity_group': 'LOCATION', 'score': np.float32(0.9873576), 'word': 'Huyện Thanh Oai', 'start': 11, 'end': 26}, {'entity_group': 'LOCATION', 'score': np.float32(0.99635226), 'word': 'Thành Phố Hà Nội', 'start': 28, 'end': 44}]
-2025-05-07 18:01:26,922 - INFO - Processing chunk: ở rộng. Mục tiêu nghề nghiệp của tôi là trở thành một lập trình viên fullstack, hợp tác với đội nhóm...
-2025-05-07 18:01:27,037 - INFO - Entities found: [{'entity_group': 'ORGANIZATION', 'score': np.float32(0.9854235), 'word': 'Cao Đẳng FPT POLYTECHNIC', 'start': 194, 'end': 218}]
-2025-05-07 18:01:27,038 - INFO - Processing chunk: ả công nghệ font-end và backend. Bên cạnh đó tôi còn được tham gia các hoạt động ngoại khóa, phát tr...
-2025-05-07 18:01:27,151 - INFO - Processing chunk: ỉ đặt vé xem phim bên cạnh đó có thể mua các dịch vụ đi kèm bao gồm bỏng, nước. e Cung cấp các ưu đã...
-2025-05-07 18:01:27,270 - INFO - Entities found: [{'entity_group': 'ORGANIZATION', 'score': np.float32(0.9992918), 'word': 'VNPAY', 'start': 289, 'end': 294}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.99902606), 'word': 'Momo', 'start': 296, 'end': 300}]
-2025-05-07 18:01:27,270 - INFO - Processing chunk: anh đơn hang. « Tích hợp đăng nhập bằng Google. e Các phòng chiếu sử dung các mẫu sơ đồ ghế. Có thể ...
-2025-05-07 18:01:27,420 - INFO - Processing chunk: bsite bán nước hoa Perfume 10/2023 - 12/2023 Nhóm trưởng Website cung cấp đầy đủ các chức năng cơ bả...
-2025-05-07 18:01:27,551 - INFO - Entities found: [{'entity_group': 'ORGANIZATION', 'score': np.float32(0.8426016), 'word': 'VNPay', 'start': 263, 'end': 268}]
-2025-05-07 18:01:27,552 - INFO - Processing chunk: . Source code DI TU https://GitHub: github.com/buidodat/Duan1 KY NANG e _ Ngôn ngữ lập trình: PHP, J...
-2025-05-07 18:01:27,641 - INFO - Combined PERSON entities: ['BUI DO DAT']
-2025-05-07 18:01:27,642 - INFO - Combined LOCATION entities: ['Huyện Thanh Oai Thành Phố Hà Nội']
-2025-05-07 18:01:27,855 - INFO - Normalized input: huyện thanh oai thành phố hà nội
-2025-05-07 18:01:27,855 - INFO - Attempting fuzzy match with provinces list
-2025-05-07 18:01:27,856 - INFO - Fuzzy match found: Hà Nội (Score: 90.0)
-2025-05-07 18:01:27,856 - INFO - Final matched province ID: 1
-2025-05-07 18:01:28,056 - INFO - Matched skill ID 2: (?<!\w)php(?!\w)
-2025-05-07 18:01:28,057 - INFO - Matched skill ID 44: (?<!\w)javascript(?!\w)
-2025-05-07 18:01:28,061 - INFO - Matched skill ID 22: (?<!\w)jquery(?!\w)
-2025-05-07 18:01:28,061 - INFO - Matched skill ID 14: (?<!\w)java(?!\w)
-2025-05-07 18:01:28,062 - INFO - Matched skill ID 10: (?<!\w)laravel(?!\w)
-2025-05-07 18:01:28,065 - INFO - Matched skills: [2, 44, 22, 14, 10]
-2025-05-07 18:01:28,066 - INFO - Processing chunk: Hoàng Kim Thắng Front-End Developer Số điện thoại 0973182434 Email Email: hk.thang95@gmail.com Ngày ...
-2025-05-07 18:01:28,181 - INFO - Entities found: [{'entity_group': 'PERSON', 'score': np.float32(0.99878913), 'word': 'Hoàng Kim Thắng', 'start': 0, 'end': 15}, {'entity_group': 'LOCATION', 'score': np.float32(0.99888325), 'word': '147 Triều Khúc', 'start': 124, 'end': 138}, {'entity_group': 'LOCATION', 'score': np.float32(0.9989586), 'word': 'Hà Nội', 'start': 140, 'end': 146}, {'entity_group': 'LOCATION', 'score': np.float32(0.99911046), 'word': 'Nhật Bản', 'start': 264, 'end': 272}]
-2025-05-07 18:01:28,182 - INFO - Processing chunk: nd và tôi thích làm việc với giao điện để tạo ra trải nghiệm tốt nhất cho người dùng. Học vấn 08/201...
-2025-05-07 18:01:28,287 - INFO - Entities found: [{'entity_group': 'ORGANIZATION', 'score': np.float32(0.9994435), 'word': 'Trường Đại học Bách khoa Hà Nội', 'start': 112, 'end': 143}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.7837057), 'word': 'Tử Viễn', 'start': 150, 'end': 157}, {'entity_group': 'MISCELLANEOUS', 'score': np.float32(0.7431979), 'word': 'FPT Software Front', 'start': 260, 'end': 278}]
-2025-05-07 18:01:28,287 - INFO - Processing chunk: liệu Detail Design phục vụ phát triển phần mềm Xây dựng và phát triển các tính năng giao diện trên m...
-2025-05-07 18:01:28,403 - INFO - Entities found: [{'entity_group': 'ORGANIZATION', 'score': np.float32(0.99891233), 'word': 'SamSung Display Việt Nam', 'start': 130, 'end': 154}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.99674654), 'word': 'NAGASE & CO., LTD', 'start': 316, 'end': 333}]
-2025-05-07 18:01:28,403 - INFO - Processing chunk: VC C# app sang sử dụng webapp và phát triển các chức năng mới. Số thành viên 50-150 member Vị trí cô...
-2025-05-07 18:01:28,533 - INFO - Entities found: [{'entity_group': 'MISCELLANEOUS', 'score': np.float32(0.5973656), 'word': 'C', 'start': 276, 'end': 277}, {'entity_group': 'MISCELLANEOUS', 'score': np.float32(0.51777416), 'word': 'My', 'start': 280, 'end': 282}, {'entity_group': 'MISCELLANEOUS', 'score': np.float32(0.9866025), 'word': 'Nihon Chouzai WebApp', 'start': 304, 'end': 324}, {'entity_group': 'PERSON', 'score': np.float32(0.9839165), 'word': 'Nihon Chouzai', 'start': 356, 'end': 369}]
-2025-05-07 18:01:28,533 - INFO - Processing chunk:  hàng Nihon Chouzai Mô tả Trang web phục vụ cho công ty dược phẩm của nhật bản. Các chức năng chính ...
-2025-05-07 18:01:28,643 - INFO - Entities found: [{'entity_group': 'MISCELLANEOUS', 'score': np.float32(0.8381315), 'word': 'Nihon Chouzai', 'start': 6, 'end': 19}, {'entity_group': 'LOCATION', 'score': np.float32(0.99839544), 'word': 'nhật bản', 'start': 70, 'end': 78}]
-2025-05-07 18:01:28,643 - INFO - Processing chunk: Xây dựng tài liệu detail design theo requirement của khách hàng. Coding các feature màn hình theo De...
-2025-05-07 18:01:28,764 - INFO - Entities found: [{'entity_group': 'MISCELLANEOUS', 'score': np.float32(0.9161066), 'word': 'C #', 'start': 255, 'end': 257}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.9990731), 'word': 'SoftBank Group Corp', 'start': 316, 'end': 335}]
-2025-05-07 18:01:28,765 - INFO - Processing chunk: b quản lý, đăng ký quyền hạn ra vào các phòng ban của các nhân viên trong các chi nhánh Số thành viê...
-2025-05-07 18:01:28,872 - INFO - Processing chunk: SS, Javascript(ReactJS) Backend: Java Kỹ năng Ngôn ngữ lập trình : HTML, CSS, JavaScript (Angular( N...
-2025-05-07 18:01:28,973 - INFO - Entities found: [{'entity_group': 'MISCELLANEOUS', 'score': np.float32(0.9984497), 'word': 'Tiếng Anh', 'start': 224, 'end': 233}]
-2025-05-07 18:01:28,974 - INFO - Combined PERSON entities: ['Hoàng Kim Thắng', 'Nihon Chouzai']
-2025-05-07 18:01:28,975 - INFO - Combined LOCATION entities: ['147 Triều Khúc', 'Hà Nội', 'Nhật Bản', 'nhật bản']
-2025-05-07 18:01:28,975 - INFO - Normalized input: 147 triều khúc
-2025-05-07 18:01:28,975 - INFO - Attempting fuzzy match with provinces list
-2025-05-07 18:01:28,975 - INFO - No match found
-2025-05-07 18:01:28,975 - INFO - Normalized input: hà nội
-2025-05-07 18:01:28,976 - INFO - Match found in common abbreviations: Hà Nội
-2025-05-07 18:01:28,976 - INFO - Matched province: Hà Nội with ID 1
-2025-05-07 18:01:28,976 - INFO - Normalized input: nhật bản
-2025-05-07 18:01:28,976 - INFO - Attempting fuzzy match with provinces list
-2025-05-07 18:01:28,976 - INFO - No match found
-2025-05-07 18:01:28,976 - INFO - Normalized input: nhật bản
-2025-05-07 18:01:28,977 - INFO - Attempting fuzzy match with provinces list
-2025-05-07 18:01:28,977 - INFO - No match found
-2025-05-07 18:01:28,980 - INFO - Matched skill ID 16: (?<!\w)angular(?!\w)
-2025-05-07 18:01:28,980 - INFO - Matched skill ID 44: (?<!\w)javascript(?!\w)
-2025-05-07 18:01:28,984 - INFO - Matched skill ID 27: (?<!\w)reactjs(?!\w)
-2025-05-07 18:01:28,985 - INFO - Matched skill ID 18: (?<!\w)c\#(?!\w)
-2025-05-07 18:01:28,987 - INFO - Matched skill ID 14: (?<!\w)java(?!\w)
-2025-05-07 18:01:28,991 - INFO - Matched skill ID 127: (?<!\w)it(?!\w)
-2025-05-07 18:01:28,992 - INFO - Matched skill ID 139: (?<!\w)git(?!\w)
-2025-05-07 18:01:28,993 - INFO - Matched skills: [16, 44, 27, 18, 14, 127, 139]
-2025-05-07 18:01:28,994 - INFO - Processing chunk: NGUYỄN VĂN TIẾN PHÁT IT SUPPORT/NETWORK Nam 14/04/1990 0972662139 Email: tienphat.tdt@gmail.com 313/...
-2025-05-07 18:01:29,123 - INFO - Entities found: [{'entity_group': 'LOCATION', 'score': np.float32(0.99797696), 'word': '313 / 19 Nơ Trang Long', 'start': 96, 'end': 116}, {'entity_group': 'LOCATION', 'score': np.float32(0.9974661), 'word': 'P13', 'start': 117, 'end': 120}, {'entity_group': 'LOCATION', 'score': np.float32(0.9981235), 'word': 'Q. Bình Thạnh', 'start': 121, 'end': 134}, {'entity_group': 'LOCATION', 'score': np.float32(0.9954688), 'word': 'TP. HCM', 'start': 135, 'end': 142}]
-2025-05-07 18:01:29,124 - INFO - Processing chunk:  được thăng tiến trở thành một chuyên viên Công nghệ thông tin trong lĩnh vực IT -Phần cứng KỸ NĂNG ...
-2025-05-07 18:01:29,238 - INFO - Entities found: [{'entity_group': 'ORGANIZATION', 'score': np.float32(0.9986319), 'word': 'VNPRO', 'start': 174, 'end': 179}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.99924624), 'word': 'Trường ĐH Tôn Đức Thắng', 'start': 248, 'end': 271}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.9994541), 'word': 'Công Ty Cổ Phần AEG Việt Nam', 'start': 326, 'end': 354}]
-2025-05-07 18:01:29,239 - INFO - Processing chunk:  Nam 2021 - nay - Quản lý domain (cấp phát user, group, OU, policy, RDS...). - Quản trị tổng đài điệ...
-2025-05-07 18:01:29,379 - INFO - Entities found: [{'entity_group': 'MISCELLANEOUS', 'score': np.float32(0.9756752), 'word': 'MS Azure', 'start': 121, 'end': 129}]
-2025-05-07 18:01:29,379 - INFO - Processing chunk: nage Engine. - Hỗ trợ end-user. Chuyên ngành Điện tử viễn thông Vị trí: IT Support TRÌNH ĐỘ HỌC VẤN ...
-2025-05-07 18:01:29,499 - INFO - Entities found: [{'entity_group': 'PERSON', 'score': np.float32(0.9993654), 'word': 'Nguyễn Sỹ Toán', 'start': 143, 'end': 157}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.9992929), 'word': 'Công Ty Cổ Phần AEG Việt Nam', 'start': 197, 'end': 225}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.9994406), 'word': 'Công Ty Cổ Phần Đại Phú Lộc', 'start': 252, 'end': 279}]
-2025-05-07 18:01:29,499 - INFO - Processing chunk: ạng . - Quản lý user domain, tổng đài điện thoại, email, Trend Micro . - Quản lý các thiết bị mạng (...
-2025-05-07 18:01:29,617 - INFO - Entities found: [{'entity_group': 'ORGANIZATION', 'score': np.float32(0.98097014), 'word': 'Công Ty Cổ Phần Tư Vấn Đầu Tư Và Quản Lý Bất Động Sản Saig', 'start': 342, 'end': 400}]
-2025-05-07 18:01:29,618 - INFO - Processing chunk: Cổ Phần Tư Vấn Đầu Tư Và Quản Lý Bất Động Sản Saigon Center Real 2019 - 2020 - Thực hiện sửa chữa mạ...
-2025-05-07 18:01:29,732 - INFO - Entities found: [{'entity_group': 'ORGANIZATION', 'score': np.float32(0.9962663), 'word': 'Cổ Phần Tư Vấn Đầu Tư Và Quản Lý Bất Động Sản Saigon Center Real', 'start': 0, 'end': 64}]
-2025-05-07 18:01:29,733 - INFO - Processing chunk:  nhân viên sale - Báo cáo công việc hàng ngày Công Ty Cổ Phần Viễn Thông ACT 2016 - 2019 - Triển kha...
-2025-05-07 18:01:29,846 - INFO - Entities found: [{'entity_group': 'ORGANIZATION', 'score': np.float32(0.99938613), 'word': 'Công Ty Cổ Phần Viễn Thông ACT', 'start': 46, 'end': 76}]
-2025-05-07 18:01:29,847 - INFO - Processing chunk:  trí: Nhân viên IT hỗ trợ kỹ thuật Vị trí: Nhân viên IT hỗ trợ kỹ thuật...
-2025-05-07 18:01:29,900 - INFO - Combined PERSON entities: ['Nguyễn Sỹ Toán']
-2025-05-07 18:01:29,900 - INFO - Combined LOCATION entities: ['313 / 19 Nơ Trang Long P13 Q. Bình Thạnh', 'TP. HCM']
-2025-05-07 18:01:29,900 - INFO - Normalized input: 313 / 19 nơ trang long p13 q. bình thạnh
-2025-05-07 18:01:29,900 - INFO - Attempting fuzzy match with provinces list
-2025-05-07 18:01:29,901 - INFO - No match found
-2025-05-07 18:01:29,901 - INFO - Normalized input: tp. hcm
-2025-05-07 18:01:29,901 - INFO - Match found in common abbreviations: Hồ Chí Minh
-2025-05-07 18:01:29,901 - INFO - Matched province: Hồ Chí Minh with ID 79
-2025-05-07 18:01:29,907 - INFO - Matched skill ID 100: (?<!\w)remote(?!\w)
-2025-05-07 18:01:29,908 - INFO - Matched skill ID 82: (?<!\w)azure(?!\w)
-2025-05-07 18:01:29,909 - INFO - Matched skill ID 68: (?<!\w)game(?!\w)
-2025-05-07 18:01:29,912 - INFO - Matched skill ID 114: (?<!\w)cisco(?!\w)
-2025-05-07 18:01:29,913 - INFO - Matched skill ID 118: (?<!\w)firewall(?!\w)
-2025-05-07 18:01:29,914 - INFO - Matched skill ID 127: (?<!\w)it(?!\w)
-2025-05-07 18:01:29,915 - INFO - Matched skills: [100, 82, 68, 114, 118, 127]
-2025-05-07 18:01:29,917 - INFO - Processing chunk: SƠ YẾU LÝ LỊCH Họ và tên: Phạm Thị Xuân Vị trí ứng tuyển: Senior .NET Remote Ngày sinh: 09/03/1994 G...
-2025-05-07 18:01:30,033 - INFO - Entities found: [{'entity_group': 'PERSON', 'score': np.float32(0.9993797), 'word': 'Phạm Thị Xuân', 'start': 26, 'end': 39}, {'entity_group': 'LOCATION', 'score': np.float32(0.9988546), 'word': 'Xã Đông Phương', 'start': 182, 'end': 196}, {'entity_group': 'LOCATION', 'score': np.float32(0.9990923), 'word': 'Huyện Đông Hưng', 'start': 198, 'end': 213}, {'entity_group': 'LOCATION', 'score': np.float32(0.99907225), 'word': 'Tỉnh Thái Bình', 'start': 215, 'end': 229}]
-2025-05-07 18:01:30,034 - INFO - Processing chunk: uyết vấn đề, đồng thời không ngừng học hỏi và nâng cao chuyên môn. HỌC VẤN 09/2012 - 05/2016 Đại học...
-2025-05-07 18:01:30,170 - INFO - Entities found: [{'entity_group': 'ORGANIZATION', 'score': np.float32(0.99683684), 'word': 'Đại học Giao Thông Vận Tải', 'start': 93, 'end': 119}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.8865663), 'word': ': Công Nghệ thông tin', 'start': 124, 'end': 145}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.9787635), 'word': 'Oracle', 'start': 329, 'end': 335}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.66233826), 'word': 'MyS', 'start': 349, 'end': 352}]
-2025-05-07 18:01:30,170 - INFO - Processing chunk: ySQL, PostgreSQL, ...  Công cụ: SVN, Postman, ... Kỹ năng giao tiếp  Giao tiếp mạch lạc và linh ho...
-2025-05-07 18:01:30,285 - INFO - Processing chunk: ng thẳng và giữ bình tĩnh trong mọi hoàn cảnh Ngoại ngữ  Tiếng Anh cơ bản Kỹ năng khác  Sử dụng th...
-2025-05-07 18:01:30,392 - INFO - Entities found: [{'entity_group': 'MISCELLANEOUS', 'score': np.float32(0.9983462), 'word': 'Tiếng Anh', 'start': 58, 'end': 67}, {'entity_group': 'MISCELLANEOUS', 'score': np.float32(0.9968357), 'word': 'Microsoft Office', 'start': 136, 'end': 152}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.9994848), 'word': 'Công ty Cổ phần Tin học Viễn Thông Petrolimex', 'start': 225, 'end': 270}]
-2025-05-07 18:01:30,393 - INFO - Processing chunk: à triển khai phần mềm ERP cho khối xăng dầu  Tham gia các dự án: Bảo trì, nâng cấp Phần mềm Quản lý...
-2025-05-07 18:01:30,505 - INFO - Processing chunk: . SỞ THÍCH  Học hỏi công nghệ mới, các phần mềm mã nguồn mở  Tạo lập website, dựng kênh mạng xã hộ...
-2025-05-07 18:01:30,603 - INFO - Entities found: [{'entity_group': 'PERSON', 'score': np.float32(0.9993958), 'word': 'Phạm Thị Xuân', 'start': 318, 'end': 331}]
-2025-05-07 18:01:30,605 - INFO - Combined PERSON entities: ['Phạm Thị Xuân']
-2025-05-07 18:01:30,605 - INFO - Combined LOCATION entities: ['Xã Đông Phương Huyện Đông Hưng Tỉnh Thái Bình']
-2025-05-07 18:01:30,605 - INFO - Normalized input: xã đông phương huyện đông hưng tỉnh thái bình
-2025-05-07 18:01:30,606 - INFO - Attempting fuzzy match with provinces list
-2025-05-07 18:01:30,606 - INFO - No match found
-2025-05-07 18:01:30,606 - INFO - Normalized input: tỉnh thái bình
-2025-05-07 18:01:30,606 - INFO - Attempting fuzzy match with provinces list
-2025-05-07 18:01:30,607 - INFO - No match found
-2025-05-07 18:01:30,608 - INFO - Matched skill ID 26: (?<!\w)postgresql(?!\w)
-2025-05-07 18:01:30,611 - INFO - Matched skill ID 25: (?<!\w)oracle(?!\w)
-2025-05-07 18:01:30,611 - INFO - Matched skill ID 100: (?<!\w)remote(?!\w)
-2025-05-07 18:01:30,613 - INFO - Matched skill ID 15: (?<!\w)\.net(?!\w)
-2025-05-07 18:01:30,618 - INFO - Matched skills: [26, 25, 100, 15]
-2025-05-07 18:01:30,620 - INFO - Successfully processed 4 files to C:\Users\Asus\Downloads\Hachinet\PDFtoJSON\parsed_data\extracted_cv_data_vn.json
+2025-05-08 11:25:42,278 - INFO - Starting CV parser
+2025-05-08 11:25:42,278 - INFO - Verifying availability of model: NlpHUST/ner-vietnamese-electra-base
+2025-05-08 11:25:43,502 - INFO - NER model loaded successfully.
+2025-05-08 11:25:43,502 - INFO - Processing chunk: BUI DO DAT Huyện Thanh Oai, Thành Phố Hà Nội. Phone: +84965263725 Email: dathbta04@gmail.com GitHub:...
+2025-05-08 11:25:43,691 - INFO - Entities found: [{'entity_group': 'PERSON', 'score': np.float32(0.9274081), 'word': 'BUI DO DAT', 'start': 0, 'end': 10}, {'entity_group': 'LOCATION', 'score': np.float32(0.9873576), 'word': 'Huyện Thanh Oai', 'start': 11, 'end': 26}, {'entity_group': 'LOCATION', 'score': np.float32(0.99635226), 'word': 'Thành Phố Hà Nội', 'start': 28, 'end': 44}]
+2025-05-08 11:25:43,691 - INFO - Processing chunk: ở rộng. Mục tiêu nghề nghiệp của tôi là trở thành một lập trình viên fullstack, hợp tác với đội nhóm...
+2025-05-08 11:25:43,816 - INFO - Entities found: [{'entity_group': 'ORGANIZATION', 'score': np.float32(0.9854235), 'word': 'Cao Đẳng FPT POLYTECHNIC', 'start': 194, 'end': 218}]
+2025-05-08 11:25:43,816 - INFO - Processing chunk: ả công nghệ font-end và backend. Bên cạnh đó tôi còn được tham gia các hoạt động ngoại khóa, phát tr...
+2025-05-08 11:25:43,935 - INFO - Processing chunk: ỉ đặt vé xem phim bên cạnh đó có thể mua các dịch vụ đi kèm bao gồm bỏng, nước. e Cung cấp các ưu đã...
+2025-05-08 11:25:44,059 - INFO - Entities found: [{'entity_group': 'ORGANIZATION', 'score': np.float32(0.9992918), 'word': 'VNPAY', 'start': 289, 'end': 294}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.99902606), 'word': 'Momo', 'start': 296, 'end': 300}]
+2025-05-08 11:25:44,059 - INFO - Processing chunk: anh đơn hang. « Tích hợp đăng nhập bằng Google. e Các phòng chiếu sử dung các mẫu sơ đồ ghế. Có thể ...
+2025-05-08 11:25:44,216 - INFO - Processing chunk: bsite bán nước hoa Perfume 10/2023 - 12/2023 Nhóm trưởng Website cung cấp đầy đủ các chức năng cơ bả...
+2025-05-08 11:25:44,351 - INFO - Entities found: [{'entity_group': 'ORGANIZATION', 'score': np.float32(0.8426016), 'word': 'VNPay', 'start': 263, 'end': 268}]
+2025-05-08 11:25:44,351 - INFO - Processing chunk: . Source code DI TU https://GitHub: github.com/buidodat/Duan1 KY NANG e _ Ngôn ngữ lập trình: PHP, J...
+2025-05-08 11:25:44,446 - INFO - Combined PERSON entities: ['BUI DO DAT']
+2025-05-08 11:25:44,446 - INFO - Combined LOCATION entities: ['Huyện Thanh Oai Thành Phố Hà Nội']
+2025-05-08 11:25:44,640 - INFO - Normalized input: huyện thanh oai thành phố hà nội
+2025-05-08 11:25:44,640 - INFO - Attempting fuzzy match with provinces list
+2025-05-08 11:25:44,640 - INFO - Fuzzy match found: Hà Nội (Score: 90.0)
+2025-05-08 11:25:44,640 - INFO - Final matched province ID: 1
+2025-05-08 11:25:44,827 - INFO - Matched skill ID 2: (?<!\w)php(?!\w)
+2025-05-08 11:25:44,827 - INFO - Matched skill ID 44: (?<!\w)javascript(?!\w)
+2025-05-08 11:25:44,827 - INFO - Matched skill ID 22: (?<!\w)jquery(?!\w)
+2025-05-08 11:25:44,827 - INFO - Matched skill ID 14: (?<!\w)java(?!\w)
+2025-05-08 11:25:44,827 - INFO - Matched skill ID 10: (?<!\w)laravel(?!\w)
+2025-05-08 11:25:44,837 - INFO - Matched skills: [2, 44, 22, 14, 10]
+2025-05-08 11:25:44,840 - INFO - Processing chunk: Hoàng Kim Thắng Front-End Developer Số điện thoại 0973182434 Email Email: hk.thang95@gmail.com Ngày ...
+2025-05-08 11:25:44,966 - INFO - Entities found: [{'entity_group': 'PERSON', 'score': np.float32(0.99878913), 'word': 'Hoàng Kim Thắng', 'start': 0, 'end': 15}, {'entity_group': 'LOCATION', 'score': np.float32(0.99888325), 'word': '147 Triều Khúc', 'start': 124, 'end': 138}, {'entity_group': 'LOCATION', 'score': np.float32(0.9989586), 'word': 'Hà Nội', 'start': 140, 'end': 146}, {'entity_group': 'LOCATION', 'score': np.float32(0.99911046), 'word': 'Nhật Bản', 'start': 264, 'end': 272}]
+2025-05-08 11:25:44,966 - INFO - Processing chunk: nd và tôi thích làm việc với giao điện để tạo ra trải nghiệm tốt nhất cho người dùng. Học vấn 08/201...
+2025-05-08 11:25:45,081 - INFO - Entities found: [{'entity_group': 'ORGANIZATION', 'score': np.float32(0.9994435), 'word': 'Trường Đại học Bách khoa Hà Nội', 'start': 112, 'end': 143}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.7837057), 'word': 'Tử Viễn', 'start': 150, 'end': 157}, {'entity_group': 'MISCELLANEOUS', 'score': np.float32(0.7431979), 'word': 'FPT Software Front', 'start': 260, 'end': 278}]
+2025-05-08 11:25:45,081 - INFO - Processing chunk: liệu Detail Design phục vụ phát triển phần mềm Xây dựng và phát triển các tính năng giao diện trên m...
+2025-05-08 11:25:45,200 - INFO - Entities found: [{'entity_group': 'ORGANIZATION', 'score': np.float32(0.99891233), 'word': 'SamSung Display Việt Nam', 'start': 130, 'end': 154}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.99674654), 'word': 'NAGASE & CO., LTD', 'start': 316, 'end': 333}]
+2025-05-08 11:25:45,200 - INFO - Processing chunk: VC C# app sang sử dụng webapp và phát triển các chức năng mới. Số thành viên 50-150 member Vị trí cô...
+2025-05-08 11:25:45,333 - INFO - Entities found: [{'entity_group': 'MISCELLANEOUS', 'score': np.float32(0.5973656), 'word': 'C', 'start': 276, 'end': 277}, {'entity_group': 'MISCELLANEOUS', 'score': np.float32(0.51777416), 'word': 'My', 'start': 280, 'end': 282}, {'entity_group': 'MISCELLANEOUS', 'score': np.float32(0.9866025), 'word': 'Nihon Chouzai WebApp', 'start': 304, 'end': 324}, {'entity_group': 'PERSON', 'score': np.float32(0.9839165), 'word': 'Nihon Chouzai', 'start': 356, 'end': 369}]
+2025-05-08 11:25:45,333 - INFO - Processing chunk:  hàng Nihon Chouzai Mô tả Trang web phục vụ cho công ty dược phẩm của nhật bản. Các chức năng chính ...
+2025-05-08 11:25:45,448 - INFO - Entities found: [{'entity_group': 'MISCELLANEOUS', 'score': np.float32(0.8381315), 'word': 'Nihon Chouzai', 'start': 6, 'end': 19}, {'entity_group': 'LOCATION', 'score': np.float32(0.99839544), 'word': 'nhật bản', 'start': 70, 'end': 78}]
+2025-05-08 11:25:45,448 - INFO - Processing chunk: Xây dựng tài liệu detail design theo requirement của khách hàng. Coding các feature màn hình theo De...
+2025-05-08 11:25:45,582 - INFO - Entities found: [{'entity_group': 'MISCELLANEOUS', 'score': np.float32(0.9161066), 'word': 'C #', 'start': 255, 'end': 257}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.9990731), 'word': 'SoftBank Group Corp', 'start': 316, 'end': 335}]
+2025-05-08 11:25:45,582 - INFO - Processing chunk: b quản lý, đăng ký quyền hạn ra vào các phòng ban của các nhân viên trong các chi nhánh Số thành viê...
+2025-05-08 11:25:45,700 - INFO - Processing chunk: SS, Javascript(ReactJS) Backend: Java Kỹ năng Ngôn ngữ lập trình : HTML, CSS, JavaScript (Angular( N...
+2025-05-08 11:25:45,807 - INFO - Entities found: [{'entity_group': 'MISCELLANEOUS', 'score': np.float32(0.9984497), 'word': 'Tiếng Anh', 'start': 224, 'end': 233}]
+2025-05-08 11:25:45,807 - INFO - Combined PERSON entities: ['Hoàng Kim Thắng', 'Nihon Chouzai']
+2025-05-08 11:25:45,807 - INFO - Combined LOCATION entities: ['147 Triều Khúc', 'Hà Nội', 'Nhật Bản', 'nhật bản']
+2025-05-08 11:25:45,807 - INFO - Normalized input: 147 triều khúc
+2025-05-08 11:25:45,807 - INFO - Attempting fuzzy match with provinces list
+2025-05-08 11:25:45,807 - INFO - No match found
+2025-05-08 11:25:45,807 - INFO - Normalized input: hà nội
+2025-05-08 11:25:45,807 - INFO - Match found in common abbreviations: Hà Nội
+2025-05-08 11:25:45,807 - INFO - Matched province: Hà Nội with ID 1
+2025-05-08 11:25:45,807 - INFO - Normalized input: nhật bản
+2025-05-08 11:25:45,807 - INFO - Attempting fuzzy match with provinces list
+2025-05-08 11:25:45,807 - INFO - No match found
+2025-05-08 11:25:45,807 - INFO - Normalized input: nhật bản
+2025-05-08 11:25:45,807 - INFO - Attempting fuzzy match with provinces list
+2025-05-08 11:25:45,807 - INFO - No match found
+2025-05-08 11:25:45,814 - INFO - Matched skill ID 16: (?<!\w)angular(?!\w)
+2025-05-08 11:25:45,815 - INFO - Matched skill ID 44: (?<!\w)javascript(?!\w)
+2025-05-08 11:25:45,819 - INFO - Matched skill ID 27: (?<!\w)reactjs(?!\w)
+2025-05-08 11:25:45,820 - INFO - Matched skill ID 18: (?<!\w)c\#(?!\w)
+2025-05-08 11:25:45,821 - INFO - Matched skill ID 14: (?<!\w)java(?!\w)
+2025-05-08 11:25:45,824 - INFO - Matched skill ID 127: (?<!\w)it(?!\w)
+2025-05-08 11:25:45,825 - INFO - Matched skill ID 139: (?<!\w)git(?!\w)
+2025-05-08 11:25:45,825 - INFO - Matched skills: [16, 44, 27, 18, 14, 127, 139]
+2025-05-08 11:25:45,829 - INFO - Processing chunk: NGUYỄN VĂN TIẾN PHÁT IT SUPPORT/NETWORK Nam 14/04/1990 0972662139 Email: tienphat.tdt@gmail.com 313/...
+2025-05-08 11:25:45,957 - INFO - Entities found: [{'entity_group': 'LOCATION', 'score': np.float32(0.99797696), 'word': '313 / 19 Nơ Trang Long', 'start': 96, 'end': 116}, {'entity_group': 'LOCATION', 'score': np.float32(0.9974661), 'word': 'P13', 'start': 117, 'end': 120}, {'entity_group': 'LOCATION', 'score': np.float32(0.9981235), 'word': 'Q. Bình Thạnh', 'start': 121, 'end': 134}, {'entity_group': 'LOCATION', 'score': np.float32(0.9954688), 'word': 'TP. HCM', 'start': 135, 'end': 142}]
+2025-05-08 11:25:45,957 - INFO - Processing chunk:  được thăng tiến trở thành một chuyên viên Công nghệ thông tin trong lĩnh vực IT -Phần cứng KỸ NĂNG ...
+2025-05-08 11:25:46,060 - INFO - Entities found: [{'entity_group': 'ORGANIZATION', 'score': np.float32(0.9986319), 'word': 'VNPRO', 'start': 174, 'end': 179}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.99924624), 'word': 'Trường ĐH Tôn Đức Thắng', 'start': 248, 'end': 271}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.9994541), 'word': 'Công Ty Cổ Phần AEG Việt Nam', 'start': 326, 'end': 354}]
+2025-05-08 11:25:46,060 - INFO - Processing chunk:  Nam 2021 - nay - Quản lý domain (cấp phát user, group, OU, policy, RDS...). - Quản trị tổng đài điệ...
+2025-05-08 11:25:46,214 - INFO - Entities found: [{'entity_group': 'MISCELLANEOUS', 'score': np.float32(0.9756752), 'word': 'MS Azure', 'start': 121, 'end': 129}]
+2025-05-08 11:25:46,214 - INFO - Processing chunk: nage Engine. - Hỗ trợ end-user. Chuyên ngành Điện tử viễn thông Vị trí: IT Support TRÌNH ĐỘ HỌC VẤN ...
+2025-05-08 11:25:46,324 - INFO - Entities found: [{'entity_group': 'PERSON', 'score': np.float32(0.9993654), 'word': 'Nguyễn Sỹ Toán', 'start': 143, 'end': 157}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.9992929), 'word': 'Công Ty Cổ Phần AEG Việt Nam', 'start': 197, 'end': 225}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.9994406), 'word': 'Công Ty Cổ Phần Đại Phú Lộc', 'start': 252, 'end': 279}]
+2025-05-08 11:25:46,324 - INFO - Processing chunk: ạng . - Quản lý user domain, tổng đài điện thoại, email, Trend Micro . - Quản lý các thiết bị mạng (...
+2025-05-08 11:25:46,447 - INFO - Entities found: [{'entity_group': 'ORGANIZATION', 'score': np.float32(0.98097014), 'word': 'Công Ty Cổ Phần Tư Vấn Đầu Tư Và Quản Lý Bất Động Sản Saig', 'start': 342, 'end': 400}]
+2025-05-08 11:25:46,447 - INFO - Processing chunk: Cổ Phần Tư Vấn Đầu Tư Và Quản Lý Bất Động Sản Saigon Center Real 2019 - 2020 - Thực hiện sửa chữa mạ...
+2025-05-08 11:25:46,545 - INFO - Entities found: [{'entity_group': 'ORGANIZATION', 'score': np.float32(0.9962663), 'word': 'Cổ Phần Tư Vấn Đầu Tư Và Quản Lý Bất Động Sản Saigon Center Real', 'start': 0, 'end': 64}]
+2025-05-08 11:25:46,545 - INFO - Processing chunk:  nhân viên sale - Báo cáo công việc hàng ngày Công Ty Cổ Phần Viễn Thông ACT 2016 - 2019 - Triển kha...
+2025-05-08 11:25:46,657 - INFO - Entities found: [{'entity_group': 'ORGANIZATION', 'score': np.float32(0.99938613), 'word': 'Công Ty Cổ Phần Viễn Thông ACT', 'start': 46, 'end': 76}]
+2025-05-08 11:25:46,657 - INFO - Processing chunk:  trí: Nhân viên IT hỗ trợ kỹ thuật Vị trí: Nhân viên IT hỗ trợ kỹ thuật...
+2025-05-08 11:25:46,713 - INFO - Combined PERSON entities: ['Nguyễn Sỹ Toán']
+2025-05-08 11:25:46,713 - INFO - Combined LOCATION entities: ['313 / 19 Nơ Trang Long P13 Q. Bình Thạnh', 'TP. HCM']
+2025-05-08 11:25:46,713 - INFO - Normalized input: 313 / 19 nơ trang long p13 q. bình thạnh
+2025-05-08 11:25:46,713 - INFO - Attempting fuzzy match with provinces list
+2025-05-08 11:25:46,713 - INFO - No match found
+2025-05-08 11:25:46,713 - INFO - Normalized input: tp. hcm
+2025-05-08 11:25:46,713 - INFO - Match found in common abbreviations: Hồ Chí Minh
+2025-05-08 11:25:46,713 - INFO - Matched province: Hồ Chí Minh with ID 79
+2025-05-08 11:25:46,713 - INFO - Matched skill ID 100: (?<!\w)remote(?!\w)
+2025-05-08 11:25:46,713 - INFO - Matched skill ID 82: (?<!\w)azure(?!\w)
+2025-05-08 11:25:46,722 - INFO - Matched skill ID 68: (?<!\w)game(?!\w)
+2025-05-08 11:25:46,723 - INFO - Matched skill ID 114: (?<!\w)cisco(?!\w)
+2025-05-08 11:25:46,724 - INFO - Matched skill ID 118: (?<!\w)firewall(?!\w)
+2025-05-08 11:25:46,725 - INFO - Matched skill ID 127: (?<!\w)it(?!\w)
+2025-05-08 11:25:46,727 - INFO - Matched skills: [100, 82, 68, 114, 118, 127]
+2025-05-08 11:25:46,728 - INFO - Processing chunk: SƠ YẾU LÝ LỊCH Họ và tên: Phạm Thị Xuân Vị trí ứng tuyển: Senior .NET Remote Ngày sinh: 09/03/1994 G...
+2025-05-08 11:25:46,847 - INFO - Entities found: [{'entity_group': 'PERSON', 'score': np.float32(0.9993797), 'word': 'Phạm Thị Xuân', 'start': 26, 'end': 39}, {'entity_group': 'LOCATION', 'score': np.float32(0.9988546), 'word': 'Xã Đông Phương', 'start': 182, 'end': 196}, {'entity_group': 'LOCATION', 'score': np.float32(0.9990923), 'word': 'Huyện Đông Hưng', 'start': 198, 'end': 213}, {'entity_group': 'LOCATION', 'score': np.float32(0.99907225), 'word': 'Tỉnh Thái Bình', 'start': 215, 'end': 229}]
+2025-05-08 11:25:46,847 - INFO - Processing chunk: uyết vấn đề, đồng thời không ngừng học hỏi và nâng cao chuyên môn. HỌC VẤN 09/2012 - 05/2016 Đại học...
+2025-05-08 11:25:46,977 - INFO - Entities found: [{'entity_group': 'ORGANIZATION', 'score': np.float32(0.99683684), 'word': 'Đại học Giao Thông Vận Tải', 'start': 93, 'end': 119}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.8865663), 'word': ': Công Nghệ thông tin', 'start': 124, 'end': 145}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.9787635), 'word': 'Oracle', 'start': 329, 'end': 335}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.66233826), 'word': 'MyS', 'start': 349, 'end': 352}]
+2025-05-08 11:25:46,979 - INFO - Processing chunk: ySQL, PostgreSQL, ...  Công cụ: SVN, Postman, ... Kỹ năng giao tiếp  Giao tiếp mạch lạc và linh ho...
+2025-05-08 11:25:47,097 - INFO - Processing chunk: ng thẳng và giữ bình tĩnh trong mọi hoàn cảnh Ngoại ngữ  Tiếng Anh cơ bản Kỹ năng khác  Sử dụng th...
+2025-05-08 11:25:47,211 - INFO - Entities found: [{'entity_group': 'MISCELLANEOUS', 'score': np.float32(0.9983462), 'word': 'Tiếng Anh', 'start': 58, 'end': 67}, {'entity_group': 'MISCELLANEOUS', 'score': np.float32(0.9968357), 'word': 'Microsoft Office', 'start': 136, 'end': 152}, {'entity_group': 'ORGANIZATION', 'score': np.float32(0.9994848), 'word': 'Công ty Cổ phần Tin học Viễn Thông Petrolimex', 'start': 225, 'end': 270}]
+2025-05-08 11:25:47,211 - INFO - Processing chunk: à triển khai phần mềm ERP cho khối xăng dầu  Tham gia các dự án: Bảo trì, nâng cấp Phần mềm Quản lý...
+2025-05-08 11:25:47,371 - INFO - Processing chunk: . SỞ THÍCH  Học hỏi công nghệ mới, các phần mềm mã nguồn mở  Tạo lập website, dựng kênh mạng xã hộ...
+2025-05-08 11:25:47,468 - INFO - Entities found: [{'entity_group': 'PERSON', 'score': np.float32(0.9993958), 'word': 'Phạm Thị Xuân', 'start': 318, 'end': 331}]
+2025-05-08 11:25:47,468 - INFO - Combined PERSON entities: ['Phạm Thị Xuân']
+2025-05-08 11:25:47,468 - INFO - Combined LOCATION entities: ['Xã Đông Phương Huyện Đông Hưng Tỉnh Thái Bình']
+2025-05-08 11:25:47,468 - INFO - Normalized input: xã đông phương huyện đông hưng tỉnh thái bình
+2025-05-08 11:25:47,468 - INFO - Attempting fuzzy match with provinces list
+2025-05-08 11:25:47,468 - INFO - No match found
+2025-05-08 11:25:47,468 - INFO - Normalized input: tỉnh thái bình
+2025-05-08 11:25:47,468 - INFO - Attempting fuzzy match with provinces list
+2025-05-08 11:25:47,468 - INFO - No match found
+2025-05-08 11:25:47,468 - INFO - Matched skill ID 26: (?<!\w)postgresql(?!\w)
+2025-05-08 11:25:47,480 - INFO - Matched skill ID 25: (?<!\w)oracle(?!\w)
+2025-05-08 11:25:47,480 - INFO - Matched skill ID 100: (?<!\w)remote(?!\w)
+2025-05-08 11:25:47,481 - INFO - Matched skill ID 15: (?<!\w)\.net(?!\w)
+2025-05-08 11:25:47,486 - INFO - Matched skills: [26, 25, 100, 15]
+2025-05-08 11:25:47,489 - INFO - Successfully processed 4 files to C:\Users\Asus\Downloads\Hachinet\PDFtoJSON\parsed_data\extracted_cv_data_vn.json

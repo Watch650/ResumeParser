@@ -112,3 +112,21 @@ Output organized in: C:\Users\Asus\Downloads\Hachinet\PDFtoJSON\text_extract
 2025-05-07 18:01:08,529 - INFO - ├── English: 4
 2025-05-07 18:01:08,530 - INFO - └── Errors: 0
 2025-05-07 18:01:08,530 - INFO - Output organized in: C:\Users\Asus\Downloads\Hachinet\PDFtoJSON\text_extract
+2025-05-08 10:12:31,157 - INFO - Starting file routing from: C:\Users\Asus\Downloads\Hachinet\PDFtoJSON\CV
+2025-05-08 10:12:32,006 - INFO - Running OCR on: C:\Users\Asus\Downloads\Hachinet\PDFtoJSON\CV\CV_BUIDODAT_PHP.pdf
+2025-05-08 10:12:33,208 - INFO - Processing page 1/1
+2025-05-08 10:12:35,933 - INFO - Processing Summary
+2025-05-08 10:12:35,933 - INFO - ├── Total files: 9
+2025-05-08 10:12:35,933 - INFO - ├── Vietnamese: 4
+2025-05-08 10:12:35,933 - INFO - ├── English: 5
+2025-05-08 10:12:35,940 - INFO - └── Errors: 0
+2025-05-08 10:12:35,940 - INFO - Output organized in: C:\Users\Asus\Downloads\Hachinet\PDFtoJSON\text_extract
+2025-05-08 11:15:44,563 - INFO - Starting file routing from: C:\Users\Asus\Downloads\Hachinet\PDFtoJSON\CV
+2025-05-08 11:15:44,848 - INFO - Running OCR on: C:\Users\Asus\Downloads\Hachinet\PDFtoJSON\CV\CV_BUIDODAT_PHP.pdf
+2025-05-08 11:15:45,488 - INFO - Processing page 1/1
+2025-05-08 11:15:47,395 - INFO - Processing Summary
+2025-05-08 11:15:47,395 - INFO - ├── Total files: 10
+2025-05-08 11:15:47,395 - INFO - ├── Vietnamese: 4
+2025-05-08 11:15:47,395 - INFO - ├── English: 6
+2025-05-08 11:15:47,395 - INFO - └── Errors: 0
+2025-05-08 11:15:47,395 - INFO - Output organized in: C:\Users\Asus\Downloads\Hachinet\PDFtoJSON\text_extract

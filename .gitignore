@@ -1,0 +1,15 @@
+# Ignore all files inside logs/ folder
+logs/*
+
+# Ignore all files inside CV/ folder
+CV/*
+
+# Ignore __pycache__ folders everywhere
+__pycache__/
+**/__pycache__/
+
+# Ignore prototype folder
+prototype/
+
+# Ignore Python virtual environment
+.venv/
