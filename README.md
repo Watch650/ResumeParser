@@ -110,4 +110,4 @@ Each parsed CV will be saved to: `parsed_data/extracted_cv_data.json`. Sample en
 ```
 
 ## Logging
-Logs are saved in: `logs`
+Logs are saved in: `logs/`
