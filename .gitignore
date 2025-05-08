@@ -2,13 +2,13 @@
 .venv/
 
 # Ignore all files inside CV/ folder
-# CV/*
+CV/**
 
 # Ignore all files inside logs/ folder
-logs/*
+logs/
 
 # Ignore all files inside parsed_data/ folder
-parsed_data/*
+parsed_data/
 
 # Ignore __pycache__ folders everywhere
 __pycache__/
