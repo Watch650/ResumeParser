@@ -375,10 +375,14 @@ def main():
         ner_vn = load_model_vn()
         if not ner_en:
             return
+        if not ner_vn:
+            return
 
         base_dir = Path(__file__).parent
         input_folder = base_dir / "text_extract" / "english"
         output_file = base_dir / "parsed_data" / "extracted_cv_data_en.json"
+
+        output_file.parent.mkdir(parents=True, exist_ok=True)
 
         process_files(input_folder, output_file, ner_en, ner_vn)
 

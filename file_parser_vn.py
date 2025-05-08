@@ -327,6 +327,8 @@ def main():
         input_folder = base_dir / "text_extract" / "vietnamese"
         output_file = base_dir / "parsed_data" / "extracted_cv_data_vn.json"
 
+        output_file.parent.mkdir(parents=True, exist_ok=True)
+
         process_files(input_folder, output_file, ner_vn)
 
     except Exception as e:
