@@ -2,7 +2,7 @@
 .venv/
 
 # Ignore all files inside CV/ folder
-CV/*
+# CV/*
 
 # Ignore all files inside logs/ folder
 logs/*
