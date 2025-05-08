@@ -95,8 +95,7 @@ python file_parser_vn.py   # For Vietnamese CVs
 
 ## Ouput Format
 
-Each parsed CV will be saved to: `parsed_data/extracted_cv_data.json`
-Sample entry:
+Each parsed CV will be saved to: `parsed_data/extracted_cv_data.json`. Sample entry:
 ```bash
 {
   "ho_ten": "Vu Hoang Lan",
